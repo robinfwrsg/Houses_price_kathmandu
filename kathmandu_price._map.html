@@ -1,0 +1,6383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_faad1a07954792b2c9ea035a524be3af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_faad1a07954792b2c9ea035a524be3af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_faad1a07954792b2c9ea035a524be3af = L.map(
+                "map_faad1a07954792b2c9ea035a524be3af",
+                {
+                    center: [27.7172, 85.324],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1e388a1def5e670e6648493ceb189d1e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1e388a1def5e670e6648493ceb189d1e.addTo(map_faad1a07954792b2c9ea035a524be3af);
+        
+    
+            var marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_31de7dddc8edd3613673bf657ceb428d = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_3d931d4ed934f04c186b03fd6b15eb2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4025e0c84d64603c498cf84693490eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae8fe26e8fa646669ff40d822c1d0522 = $(`<div id="html_ae8fe26e8fa646669ff40d822c1d0522" style="width: 100.0%; height: 100.0%;">Pasikot: 800.00 Lakhs NPR</div>`)[0];
+                popup_c4025e0c84d64603c498cf84693490eb.setContent(html_ae8fe26e8fa646669ff40d822c1d0522);
+            
+        
+
+        marker_31de7dddc8edd3613673bf657ceb428d.bindPopup(popup_c4025e0c84d64603c498cf84693490eb)
+        ;
+
+        
+    
+    
+                marker_31de7dddc8edd3613673bf657ceb428d.setIcon(icon_3d931d4ed934f04c186b03fd6b15eb2d);
+            
+    
+            var marker_43cc18df56818326ea3565cb77818851 = L.marker(
+                [27.744, 85.337],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_ce5e035af33de7e53c21d37887464f34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_696bd157b90ff51d26ab98f6d4ab5e72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01d8c8f964e2951413b58dd6fc9fb24b = $(`<div id="html_01d8c8f964e2951413b58dd6fc9fb24b" style="width: 100.0%; height: 100.0%;">Dhapasi: 700.00 Lakhs NPR</div>`)[0];
+                popup_696bd157b90ff51d26ab98f6d4ab5e72.setContent(html_01d8c8f964e2951413b58dd6fc9fb24b);
+            
+        
+
+        marker_43cc18df56818326ea3565cb77818851.bindPopup(popup_696bd157b90ff51d26ab98f6d4ab5e72)
+        ;
+
+        
+    
+    
+                marker_43cc18df56818326ea3565cb77818851.setIcon(icon_ce5e035af33de7e53c21d37887464f34);
+            
+    
+            var marker_0595089f334ffdf5079b3a6361550557 = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_94e55b155b2a141e5f0210e8afdf5b24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cca59400a78192f933eb787ae636c664 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0535e3f415e1b6ac1df2566f4a02317 = $(`<div id="html_d0535e3f415e1b6ac1df2566f4a02317" style="width: 100.0%; height: 100.0%;">Golfutar: 1000.00 Lakhs NPR</div>`)[0];
+                popup_cca59400a78192f933eb787ae636c664.setContent(html_d0535e3f415e1b6ac1df2566f4a02317);
+            
+        
+
+        marker_0595089f334ffdf5079b3a6361550557.bindPopup(popup_cca59400a78192f933eb787ae636c664)
+        ;
+
+        
+    
+    
+                marker_0595089f334ffdf5079b3a6361550557.setIcon(icon_94e55b155b2a141e5f0210e8afdf5b24);
+            
+    
+            var marker_40106f3927a1f929c12a057b2d276772 = L.marker(
+                [27.707, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_a2048babc9fda350a126f0a8169cbea6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a25da943463b9ce40dc724ed06b05f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6867eb9030ff4e327f785fc3030b6fe = $(`<div id="html_d6867eb9030ff4e327f785fc3030b6fe" style="width: 100.0%; height: 100.0%;">Banasthali: 1000.00 Lakhs NPR</div>`)[0];
+                popup_7a25da943463b9ce40dc724ed06b05f2.setContent(html_d6867eb9030ff4e327f785fc3030b6fe);
+            
+        
+
+        marker_40106f3927a1f929c12a057b2d276772.bindPopup(popup_7a25da943463b9ce40dc724ed06b05f2)
+        ;
+
+        
+    
+    
+                marker_40106f3927a1f929c12a057b2d276772.setIcon(icon_a2048babc9fda350a126f0a8169cbea6);
+            
+    
+            var marker_af91d7681a01427a8966d987180684ce = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_169fac97ecf012cd49c3b7bac83c29eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_984328747ff891856019e432aa0f1f13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eef7c7aa3911f270b25762a7605d1e89 = $(`<div id="html_eef7c7aa3911f270b25762a7605d1e89" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 399.00 Lakhs NPR</div>`)[0];
+                popup_984328747ff891856019e432aa0f1f13.setContent(html_eef7c7aa3911f270b25762a7605d1e89);
+            
+        
+
+        marker_af91d7681a01427a8966d987180684ce.bindPopup(popup_984328747ff891856019e432aa0f1f13)
+        ;
+
+        
+    
+    
+                marker_af91d7681a01427a8966d987180684ce.setIcon(icon_169fac97ecf012cd49c3b7bac83c29eb);
+            
+    
+            var marker_ec493d1f402b6ca2db686c79f8e9ab64 = L.marker(
+                [27.717, 85.298],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_d4a735976078c44436e1668db084a67d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7b76bce06c51041f0602a33e3b3feaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9954c1ad5e4e2737d8a2c80367e96686 = $(`<div id="html_9954c1ad5e4e2737d8a2c80367e96686" style="width: 100.0%; height: 100.0%;">Mhepi: 370.00 Lakhs NPR</div>`)[0];
+                popup_c7b76bce06c51041f0602a33e3b3feaf.setContent(html_9954c1ad5e4e2737d8a2c80367e96686);
+            
+        
+
+        marker_ec493d1f402b6ca2db686c79f8e9ab64.bindPopup(popup_c7b76bce06c51041f0602a33e3b3feaf)
+        ;
+
+        
+    
+    
+                marker_ec493d1f402b6ca2db686c79f8e9ab64.setIcon(icon_d4a735976078c44436e1668db084a67d);
+            
+    
+            var marker_4dbeaaaa03e5cce842b2655441b323dd = L.marker(
+                [27.701, 85.271],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_20e0633be33cbc0015317abb02d886b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d89483aadb38d94a665bdbf938619044 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b7da23c2fe52fea78c3c40846078570 = $(`<div id="html_6b7da23c2fe52fea78c3c40846078570" style="width: 100.0%; height: 100.0%;">Syuchatar: 220.00 Lakhs NPR</div>`)[0];
+                popup_d89483aadb38d94a665bdbf938619044.setContent(html_6b7da23c2fe52fea78c3c40846078570);
+            
+        
+
+        marker_4dbeaaaa03e5cce842b2655441b323dd.bindPopup(popup_d89483aadb38d94a665bdbf938619044)
+        ;
+
+        
+    
+    
+                marker_4dbeaaaa03e5cce842b2655441b323dd.setIcon(icon_20e0633be33cbc0015317abb02d886b2);
+            
+    
+            var marker_b6a7c17c08d5b15cab021473dd3a89b7 = L.marker(
+                [27.727, 85.334],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_2f182d201c71381d2953b7037b75d6f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6388f14c80892304d8669240d01109e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1de5ed1c32e2e3bbb67dc0d421635503 = $(`<div id="html_1de5ed1c32e2e3bbb67dc0d421635503" style="width: 100.0%; height: 100.0%;">Baluwatar: 900.00 Lakhs NPR</div>`)[0];
+                popup_6388f14c80892304d8669240d01109e8.setContent(html_1de5ed1c32e2e3bbb67dc0d421635503);
+            
+        
+
+        marker_b6a7c17c08d5b15cab021473dd3a89b7.bindPopup(popup_6388f14c80892304d8669240d01109e8)
+        ;
+
+        
+    
+    
+                marker_b6a7c17c08d5b15cab021473dd3a89b7.setIcon(icon_2f182d201c71381d2953b7037b75d6f2);
+            
+    
+            var marker_7ae7364dd3abdda6bf00135c930240ec = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_dd9244ed845b207ce11ce474dd7d5464 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9cc3c533201bc3bcebced3f4f1c9c4b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_866ef2eebadd3103ee7aa66511a363dd = $(`<div id="html_866ef2eebadd3103ee7aa66511a363dd" style="width: 100.0%; height: 100.0%;">Pasikot: 450.00 Lakhs NPR</div>`)[0];
+                popup_9cc3c533201bc3bcebced3f4f1c9c4b0.setContent(html_866ef2eebadd3103ee7aa66511a363dd);
+            
+        
+
+        marker_7ae7364dd3abdda6bf00135c930240ec.bindPopup(popup_9cc3c533201bc3bcebced3f4f1c9c4b0)
+        ;
+
+        
+    
+    
+                marker_7ae7364dd3abdda6bf00135c930240ec.setIcon(icon_dd9244ed845b207ce11ce474dd7d5464);
+            
+    
+            var marker_d1749e6489d060f4cc8e40dc8ddac27e = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8a67c5921801b86557cb62b27b351924 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ff73dd3a8afcd1d248ddb02bd14bb0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00079f98b7b457d61e1edb585db47737 = $(`<div id="html_00079f98b7b457d61e1edb585db47737" style="width: 100.0%; height: 100.0%;">Golfutar: 41.00 Lakhs NPR</div>`)[0];
+                popup_0ff73dd3a8afcd1d248ddb02bd14bb0a.setContent(html_00079f98b7b457d61e1edb585db47737);
+            
+        
+
+        marker_d1749e6489d060f4cc8e40dc8ddac27e.bindPopup(popup_0ff73dd3a8afcd1d248ddb02bd14bb0a)
+        ;
+
+        
+    
+    
+                marker_d1749e6489d060f4cc8e40dc8ddac27e.setIcon(icon_8a67c5921801b86557cb62b27b351924);
+            
+    
+            var marker_5cb18c42f3ca28d343bb169d73a9f6fc = L.marker(
+                [27.737, 85.311],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_400947a9ff881cced23589738e3de1b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e289e7d59866c35a4b508c8fbf704d7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d745b8572b266f0a36e49f95e17707b = $(`<div id="html_1d745b8572b266f0a36e49f95e17707b" style="width: 100.0%; height: 100.0%;">Manamaiju: 24.00 Lakhs NPR</div>`)[0];
+                popup_e289e7d59866c35a4b508c8fbf704d7f.setContent(html_1d745b8572b266f0a36e49f95e17707b);
+            
+        
+
+        marker_5cb18c42f3ca28d343bb169d73a9f6fc.bindPopup(popup_e289e7d59866c35a4b508c8fbf704d7f)
+        ;
+
+        
+    
+    
+                marker_5cb18c42f3ca28d343bb169d73a9f6fc.setIcon(icon_400947a9ff881cced23589738e3de1b2);
+            
+    
+            var marker_d85bf8983a9bbd625e821476ed83aa01 = L.marker(
+                [27.727, 85.287],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_f43bfbedf540e0eb3520f6c8e872759d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b071cfd9cfeb20da95df772226d47ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cce4ca1e5a06fac052f120d9da34e4de = $(`<div id="html_cce4ca1e5a06fac052f120d9da34e4de" style="width: 100.0%; height: 100.0%;">Raniban: 28.50 Lakhs NPR</div>`)[0];
+                popup_7b071cfd9cfeb20da95df772226d47ec.setContent(html_cce4ca1e5a06fac052f120d9da34e4de);
+            
+        
+
+        marker_d85bf8983a9bbd625e821476ed83aa01.bindPopup(popup_7b071cfd9cfeb20da95df772226d47ec)
+        ;
+
+        
+    
+    
+                marker_d85bf8983a9bbd625e821476ed83aa01.setIcon(icon_f43bfbedf540e0eb3520f6c8e872759d);
+            
+    
+            var marker_8d222dd40a1ac1f39794ef42948d71df = L.marker(
+                [27.708, 85.279],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_5ab38c00700789e620a252aa0e3dc934 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa153e3c6f9909b137cb3864f89118d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0162875d3b0e2a5fb73832c31808d8a = $(`<div id="html_a0162875d3b0e2a5fb73832c31808d8a" style="width: 100.0%; height: 100.0%;">Sitapaila: 42.00 Lakhs NPR</div>`)[0];
+                popup_aa153e3c6f9909b137cb3864f89118d6.setContent(html_a0162875d3b0e2a5fb73832c31808d8a);
+            
+        
+
+        marker_8d222dd40a1ac1f39794ef42948d71df.bindPopup(popup_aa153e3c6f9909b137cb3864f89118d6)
+        ;
+
+        
+    
+    
+                marker_8d222dd40a1ac1f39794ef42948d71df.setIcon(icon_5ab38c00700789e620a252aa0e3dc934);
+            
+    
+            var marker_4cef3ee9daa3b70348d4e2797085adb6 = L.marker(
+                [27.743, 85.301],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_11ee60ad5f5308c546507ab249023120 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39617d2235a62ec3bd147c645ad6ac81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96615aa97bc18c93d80233ff1b6e8d44 = $(`<div id="html_96615aa97bc18c93d80233ff1b6e8d44" style="width: 100.0%; height: 100.0%;">Tarkeshwor: 170.00 Lakhs NPR</div>`)[0];
+                popup_39617d2235a62ec3bd147c645ad6ac81.setContent(html_96615aa97bc18c93d80233ff1b6e8d44);
+            
+        
+
+        marker_4cef3ee9daa3b70348d4e2797085adb6.bindPopup(popup_39617d2235a62ec3bd147c645ad6ac81)
+        ;
+
+        
+    
+    
+                marker_4cef3ee9daa3b70348d4e2797085adb6.setIcon(icon_11ee60ad5f5308c546507ab249023120);
+            
+    
+            var marker_cea0b3353872e1f44fb7679379b39117 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_16b595df22156769d0f5ed766d59789a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04d4ced0be43eef41c607a7e19b50ebf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b24f543b15bcdd308e52fc8aa5275b81 = $(`<div id="html_b24f543b15bcdd308e52fc8aa5275b81" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 37.00 Lakhs NPR</div>`)[0];
+                popup_04d4ced0be43eef41c607a7e19b50ebf.setContent(html_b24f543b15bcdd308e52fc8aa5275b81);
+            
+        
+
+        marker_cea0b3353872e1f44fb7679379b39117.bindPopup(popup_04d4ced0be43eef41c607a7e19b50ebf)
+        ;
+
+        
+    
+    
+                marker_cea0b3353872e1f44fb7679379b39117.setIcon(icon_16b595df22156769d0f5ed766d59789a);
+            
+    
+            var marker_13fc35e3e97142984707f5a6e962be3b = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_5c6e4c7ff120a7bf4c5f810e1bc5dad6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41d9957d5af21041a253406e4b05edc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98dd9a9a09c79446bde93303803295c8 = $(`<div id="html_98dd9a9a09c79446bde93303803295c8" style="width: 100.0%; height: 100.0%;">Pasikot: 225.00 Lakhs NPR</div>`)[0];
+                popup_41d9957d5af21041a253406e4b05edc9.setContent(html_98dd9a9a09c79446bde93303803295c8);
+            
+        
+
+        marker_13fc35e3e97142984707f5a6e962be3b.bindPopup(popup_41d9957d5af21041a253406e4b05edc9)
+        ;
+
+        
+    
+    
+                marker_13fc35e3e97142984707f5a6e962be3b.setIcon(icon_5c6e4c7ff120a7bf4c5f810e1bc5dad6);
+            
+    
+            var marker_82fedb7fb8a44ed782c6c8187dcfb4d6 = L.marker(
+                [27.76, 85.325],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8c1fb047b862f8dd08fe8ec0101cf5d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32fa4003cd6f406b9db3a589ea5cffc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc98fe7d7dca06a0ba77e7738a9b1adc = $(`<div id="html_bc98fe7d7dca06a0ba77e7738a9b1adc" style="width: 100.0%; height: 100.0%;">Tokha: 22.00 Lakhs NPR</div>`)[0];
+                popup_32fa4003cd6f406b9db3a589ea5cffc1.setContent(html_bc98fe7d7dca06a0ba77e7738a9b1adc);
+            
+        
+
+        marker_82fedb7fb8a44ed782c6c8187dcfb4d6.bindPopup(popup_32fa4003cd6f406b9db3a589ea5cffc1)
+        ;
+
+        
+    
+    
+                marker_82fedb7fb8a44ed782c6c8187dcfb4d6.setIcon(icon_8c1fb047b862f8dd08fe8ec0101cf5d9);
+            
+    
+            var marker_78c76194b2344d3587dba7b2f60a9166 = L.marker(
+                [27.737, 85.362],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c6f838fdc106413973126a0cb315c94e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_187ac4d7c23595822dfd10524969f696 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_658dfac4f4cff51ded55fb8def7f8caf = $(`<div id="html_658dfac4f4cff51ded55fb8def7f8caf" style="width: 100.0%; height: 100.0%;">Kapan: 150.00 Lakhs NPR</div>`)[0];
+                popup_187ac4d7c23595822dfd10524969f696.setContent(html_658dfac4f4cff51ded55fb8def7f8caf);
+            
+        
+
+        marker_78c76194b2344d3587dba7b2f60a9166.bindPopup(popup_187ac4d7c23595822dfd10524969f696)
+        ;
+
+        
+    
+    
+                marker_78c76194b2344d3587dba7b2f60a9166.setIcon(icon_c6f838fdc106413973126a0cb315c94e);
+            
+    
+            var marker_887c21bc963789427c240da29faad08b = L.marker(
+                [27.681, 85.243],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_248e2a6d308c3b92ad1a5daf80715205 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60c4ec08f8a040470f5796beeaa6767c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2409bd2a82a476e9f4a08f0c1f8c18b7 = $(`<div id="html_2409bd2a82a476e9f4a08f0c1f8c18b7" style="width: 100.0%; height: 100.0%;">Thankot: 130.00 Lakhs NPR</div>`)[0];
+                popup_60c4ec08f8a040470f5796beeaa6767c.setContent(html_2409bd2a82a476e9f4a08f0c1f8c18b7);
+            
+        
+
+        marker_887c21bc963789427c240da29faad08b.bindPopup(popup_60c4ec08f8a040470f5796beeaa6767c)
+        ;
+
+        
+    
+    
+                marker_887c21bc963789427c240da29faad08b.setIcon(icon_248e2a6d308c3b92ad1a5daf80715205);
+            
+    
+            var marker_2f2b75066cecb408048511684074e5a2 = L.marker(
+                [27.708, 85.279],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e841f3f4cf0279e2b36536c47e61c612 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc3ab317f759e72ded63f20e10c9f876 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ffe88ba798902682f07fcf97f6c32f1 = $(`<div id="html_0ffe88ba798902682f07fcf97f6c32f1" style="width: 100.0%; height: 100.0%;">Sitapaila: 175.00 Lakhs NPR</div>`)[0];
+                popup_bc3ab317f759e72ded63f20e10c9f876.setContent(html_0ffe88ba798902682f07fcf97f6c32f1);
+            
+        
+
+        marker_2f2b75066cecb408048511684074e5a2.bindPopup(popup_bc3ab317f759e72ded63f20e10c9f876)
+        ;
+
+        
+    
+    
+                marker_2f2b75066cecb408048511684074e5a2.setIcon(icon_e841f3f4cf0279e2b36536c47e61c612);
+            
+    
+            var marker_6085fc97544b8e02fd7f4944fa4b79e3 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c2a78909547b5662c05f8d84c2e0de00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_420289571f66b7a52dd8dcdfb3f11cf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5738ff042fc395625845f912c7649b9e = $(`<div id="html_5738ff042fc395625845f912c7649b9e" style="width: 100.0%; height: 100.0%;">Hattigauda: 29.00 Lakhs NPR</div>`)[0];
+                popup_420289571f66b7a52dd8dcdfb3f11cf0.setContent(html_5738ff042fc395625845f912c7649b9e);
+            
+        
+
+        marker_6085fc97544b8e02fd7f4944fa4b79e3.bindPopup(popup_420289571f66b7a52dd8dcdfb3f11cf0)
+        ;
+
+        
+    
+    
+                marker_6085fc97544b8e02fd7f4944fa4b79e3.setIcon(icon_c2a78909547b5662c05f8d84c2e0de00);
+            
+    
+            var marker_fea3cc2620f505acf5cc9aa7cac9c705 = L.marker(
+                [27.744, 85.337],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_2376529414caa7d9af1d113d4fcba77a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d81124f78366957930e43edcdb9a8ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbfff738abce2529b921f120f3a77ba1 = $(`<div id="html_bbfff738abce2529b921f120f3a77ba1" style="width: 100.0%; height: 100.0%;">Dhapasi: 650.00 Lakhs NPR</div>`)[0];
+                popup_0d81124f78366957930e43edcdb9a8ff.setContent(html_bbfff738abce2529b921f120f3a77ba1);
+            
+        
+
+        marker_fea3cc2620f505acf5cc9aa7cac9c705.bindPopup(popup_0d81124f78366957930e43edcdb9a8ff)
+        ;
+
+        
+    
+    
+                marker_fea3cc2620f505acf5cc9aa7cac9c705.setIcon(icon_2376529414caa7d9af1d113d4fcba77a);
+            
+    
+            var marker_7f3d0b0e8e22086dc1332511b7a79ea3 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_a708cb38003b2439a47c2a473d07da2c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad10147154f16d47e5ca69346c5d9592 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dd197a3a63e17f88c6af406a780f24f = $(`<div id="html_1dd197a3a63e17f88c6af406a780f24f" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 35.00 Lakhs NPR</div>`)[0];
+                popup_ad10147154f16d47e5ca69346c5d9592.setContent(html_1dd197a3a63e17f88c6af406a780f24f);
+            
+        
+
+        marker_7f3d0b0e8e22086dc1332511b7a79ea3.bindPopup(popup_ad10147154f16d47e5ca69346c5d9592)
+        ;
+
+        
+    
+    
+                marker_7f3d0b0e8e22086dc1332511b7a79ea3.setIcon(icon_a708cb38003b2439a47c2a473d07da2c);
+            
+    
+            var marker_917a803881b8ec82a6856b3c9e04fa97 = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e8084a7036cc9aecac0f23e1de7c6fb1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d89ae3eea8ddae2f954e8087671f1be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_827b579de8e890163e5b5179cead31c0 = $(`<div id="html_827b579de8e890163e5b5179cead31c0" style="width: 100.0%; height: 100.0%;">Pasikot: 370.00 Lakhs NPR</div>`)[0];
+                popup_0d89ae3eea8ddae2f954e8087671f1be.setContent(html_827b579de8e890163e5b5179cead31c0);
+            
+        
+
+        marker_917a803881b8ec82a6856b3c9e04fa97.bindPopup(popup_0d89ae3eea8ddae2f954e8087671f1be)
+        ;
+
+        
+    
+    
+                marker_917a803881b8ec82a6856b3c9e04fa97.setIcon(icon_e8084a7036cc9aecac0f23e1de7c6fb1);
+            
+    
+            var marker_84f8a041af35d8fb9faa850d0f94c8c9 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e280804a75c6d766fbad5183a257733b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e4649db121750e3c6d770fcc614f30e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d3899d0210f08d7a885f8f9d23f5794 = $(`<div id="html_6d3899d0210f08d7a885f8f9d23f5794" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 37.00 Lakhs NPR</div>`)[0];
+                popup_8e4649db121750e3c6d770fcc614f30e.setContent(html_6d3899d0210f08d7a885f8f9d23f5794);
+            
+        
+
+        marker_84f8a041af35d8fb9faa850d0f94c8c9.bindPopup(popup_8e4649db121750e3c6d770fcc614f30e)
+        ;
+
+        
+    
+    
+                marker_84f8a041af35d8fb9faa850d0f94c8c9.setIcon(icon_e280804a75c6d766fbad5183a257733b);
+            
+    
+            var marker_1db144d03d924b3c85c277b6d2910cc5 = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e06561eb5e665cf1daed77645254b29e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f75a8bdda4aa468d2beae7577d508f3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c914bfad210ccaee48b2f61574e4ac4 = $(`<div id="html_0c914bfad210ccaee48b2f61574e4ac4" style="width: 100.0%; height: 100.0%;">Golfutar: 45.00 Lakhs NPR</div>`)[0];
+                popup_f75a8bdda4aa468d2beae7577d508f3d.setContent(html_0c914bfad210ccaee48b2f61574e4ac4);
+            
+        
+
+        marker_1db144d03d924b3c85c277b6d2910cc5.bindPopup(popup_f75a8bdda4aa468d2beae7577d508f3d)
+        ;
+
+        
+    
+    
+                marker_1db144d03d924b3c85c277b6d2910cc5.setIcon(icon_e06561eb5e665cf1daed77645254b29e);
+            
+    
+            var marker_d6bfb9579be1bcb78efee93e2cfabe0f = L.marker(
+                [27.727, 85.334],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_1e9c08166df77777c735133eb1018645 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5574e381902dfc949c628bb6b84256c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8eb2a8a165a45854743b6f9350774e5c = $(`<div id="html_8eb2a8a165a45854743b6f9350774e5c" style="width: 100.0%; height: 100.0%;">Baluwatar: 600.00 Lakhs NPR</div>`)[0];
+                popup_5574e381902dfc949c628bb6b84256c5.setContent(html_8eb2a8a165a45854743b6f9350774e5c);
+            
+        
+
+        marker_d6bfb9579be1bcb78efee93e2cfabe0f.bindPopup(popup_5574e381902dfc949c628bb6b84256c5)
+        ;
+
+        
+    
+    
+                marker_d6bfb9579be1bcb78efee93e2cfabe0f.setIcon(icon_1e9c08166df77777c735133eb1018645);
+            
+    
+            var marker_337a2b2756f2fb5924f6b7f6c3f1b03c = L.marker(
+                [27.737, 85.362],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_b0cab59d0c4caf6b2c7a5f06b8587bb7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea1ef3fd5472b5485b661f1c7eb9ae23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28cfa30bdfcb0774cc94fd3411391462 = $(`<div id="html_28cfa30bdfcb0774cc94fd3411391462" style="width: 100.0%; height: 100.0%;">Kapan: 240.00 Lakhs NPR</div>`)[0];
+                popup_ea1ef3fd5472b5485b661f1c7eb9ae23.setContent(html_28cfa30bdfcb0774cc94fd3411391462);
+            
+        
+
+        marker_337a2b2756f2fb5924f6b7f6c3f1b03c.bindPopup(popup_ea1ef3fd5472b5485b661f1c7eb9ae23)
+        ;
+
+        
+    
+    
+                marker_337a2b2756f2fb5924f6b7f6c3f1b03c.setIcon(icon_b0cab59d0c4caf6b2c7a5f06b8587bb7);
+            
+    
+            var marker_253f9c0d1ac11e5c3ada9435842bd37e = L.marker(
+                [27.744, 85.337],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_4a068c57a5a9098b305f1fa64601a63c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44cbb44b817601db1c8a51a76075898a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a55e3a018e7c64c5d433fada12479e2 = $(`<div id="html_2a55e3a018e7c64c5d433fada12479e2" style="width: 100.0%; height: 100.0%;">Dhapasi: 27.00 Lakhs NPR</div>`)[0];
+                popup_44cbb44b817601db1c8a51a76075898a.setContent(html_2a55e3a018e7c64c5d433fada12479e2);
+            
+        
+
+        marker_253f9c0d1ac11e5c3ada9435842bd37e.bindPopup(popup_44cbb44b817601db1c8a51a76075898a)
+        ;
+
+        
+    
+    
+                marker_253f9c0d1ac11e5c3ada9435842bd37e.setIcon(icon_4a068c57a5a9098b305f1fa64601a63c);
+            
+    
+            var marker_e3c553c5cb9cfbc1553256a66caebad2 = L.marker(
+                [27.727, 85.334],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_3c4e27d7b5a189a47fe63562aa1e8e36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_186cfc0217580ca67828ffd48d361cd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3f69782dc935a5ad7314c29af3d3ffa = $(`<div id="html_b3f69782dc935a5ad7314c29af3d3ffa" style="width: 100.0%; height: 100.0%;">Baluwatar: 395.00 Lakhs NPR</div>`)[0];
+                popup_186cfc0217580ca67828ffd48d361cd9.setContent(html_b3f69782dc935a5ad7314c29af3d3ffa);
+            
+        
+
+        marker_e3c553c5cb9cfbc1553256a66caebad2.bindPopup(popup_186cfc0217580ca67828ffd48d361cd9)
+        ;
+
+        
+    
+    
+                marker_e3c553c5cb9cfbc1553256a66caebad2.setIcon(icon_3c4e27d7b5a189a47fe63562aa1e8e36);
+            
+    
+            var marker_b338e3f5b6721edf03071c48dff690be = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_0fa8ed88d50b8aad782ebbef53e8ccfa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_590d13c4cb9af789de4adb90ce9a1c21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97277df165f7a83ac6888f6215d5e869 = $(`<div id="html_97277df165f7a83ac6888f6215d5e869" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 380.00 Lakhs NPR</div>`)[0];
+                popup_590d13c4cb9af789de4adb90ce9a1c21.setContent(html_97277df165f7a83ac6888f6215d5e869);
+            
+        
+
+        marker_b338e3f5b6721edf03071c48dff690be.bindPopup(popup_590d13c4cb9af789de4adb90ce9a1c21)
+        ;
+
+        
+    
+    
+                marker_b338e3f5b6721edf03071c48dff690be.setIcon(icon_0fa8ed88d50b8aad782ebbef53e8ccfa);
+            
+    
+            var marker_6675ca21029bd249a785bc9e460981ce = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e3576915329863fdd350b80b7722e817 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_077f1cee8bbc40b18339623c00e508fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5363684e1ef774af623deecfe96785d7 = $(`<div id="html_5363684e1ef774af623deecfe96785d7" style="width: 100.0%; height: 100.0%;">Golfutar: 350.00 Lakhs NPR</div>`)[0];
+                popup_077f1cee8bbc40b18339623c00e508fc.setContent(html_5363684e1ef774af623deecfe96785d7);
+            
+        
+
+        marker_6675ca21029bd249a785bc9e460981ce.bindPopup(popup_077f1cee8bbc40b18339623c00e508fc)
+        ;
+
+        
+    
+    
+                marker_6675ca21029bd249a785bc9e460981ce.setIcon(icon_e3576915329863fdd350b80b7722e817);
+            
+    
+            var marker_09ffc034862ee795777733c217400d21 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_fd8c299da94bdcc73ea4938c073bb659 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70f1074bc10a5c416c250750ecfb0b49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fce65f3252b9fea0b46e01ee26b4b03 = $(`<div id="html_4fce65f3252b9fea0b46e01ee26b4b03" style="width: 100.0%; height: 100.0%;">Hattigauda: 375.00 Lakhs NPR</div>`)[0];
+                popup_70f1074bc10a5c416c250750ecfb0b49.setContent(html_4fce65f3252b9fea0b46e01ee26b4b03);
+            
+        
+
+        marker_09ffc034862ee795777733c217400d21.bindPopup(popup_70f1074bc10a5c416c250750ecfb0b49)
+        ;
+
+        
+    
+    
+                marker_09ffc034862ee795777733c217400d21.setIcon(icon_fd8c299da94bdcc73ea4938c073bb659);
+            
+    
+            var marker_6cd45c24cd412c946df20aa42daba15f = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c19a316d1ea0db1eb3f1713ea8751cdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65d26f1b6fea91fb42e00d568185733f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_432b7d3ea7eff9505da61848e88012d3 = $(`<div id="html_432b7d3ea7eff9505da61848e88012d3" style="width: 100.0%; height: 100.0%;">Hattigauda: 355.00 Lakhs NPR</div>`)[0];
+                popup_65d26f1b6fea91fb42e00d568185733f.setContent(html_432b7d3ea7eff9505da61848e88012d3);
+            
+        
+
+        marker_6cd45c24cd412c946df20aa42daba15f.bindPopup(popup_65d26f1b6fea91fb42e00d568185733f)
+        ;
+
+        
+    
+    
+                marker_6cd45c24cd412c946df20aa42daba15f.setIcon(icon_c19a316d1ea0db1eb3f1713ea8751cdc);
+            
+    
+            var marker_bb87ff8dcb9e47bd1d86b80a036f6b02 = L.marker(
+                [27.731, 85.312],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_7067301833a19bb183455a8ad8ef2202 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99294b566f9b00095cfa854b1c4822a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d646c0a0b9d8eba2f4efbea4bb8291bf = $(`<div id="html_d646c0a0b9d8eba2f4efbea4bb8291bf" style="width: 100.0%; height: 100.0%;">Baniyatar: 295.00 Lakhs NPR</div>`)[0];
+                popup_99294b566f9b00095cfa854b1c4822a3.setContent(html_d646c0a0b9d8eba2f4efbea4bb8291bf);
+            
+        
+
+        marker_bb87ff8dcb9e47bd1d86b80a036f6b02.bindPopup(popup_99294b566f9b00095cfa854b1c4822a3)
+        ;
+
+        
+    
+    
+                marker_bb87ff8dcb9e47bd1d86b80a036f6b02.setIcon(icon_7067301833a19bb183455a8ad8ef2202);
+            
+    
+            var marker_f8d0bc3e3bf04598bbc7d1b4e6257082 = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_6e548e8b65fd2619d7ea2251c46b074f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b89de38b78226cbec8db539b87ad5180 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_261944de89de71db37e6aaf4370d69b1 = $(`<div id="html_261944de89de71db37e6aaf4370d69b1" style="width: 100.0%; height: 100.0%;">Pasikot: 800.00 Lakhs NPR</div>`)[0];
+                popup_b89de38b78226cbec8db539b87ad5180.setContent(html_261944de89de71db37e6aaf4370d69b1);
+            
+        
+
+        marker_f8d0bc3e3bf04598bbc7d1b4e6257082.bindPopup(popup_b89de38b78226cbec8db539b87ad5180)
+        ;
+
+        
+    
+    
+                marker_f8d0bc3e3bf04598bbc7d1b4e6257082.setIcon(icon_6e548e8b65fd2619d7ea2251c46b074f);
+            
+    
+            var marker_a642cfb64ac8a67d73d83d47a5fd776c = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c374e1860015670d33b1492fddc1ea82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a86aae2ef5a4cbc0748fa3a5015a37a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f35e3c5b0a513417d152a174cc14d652 = $(`<div id="html_f35e3c5b0a513417d152a174cc14d652" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 360.00 Lakhs NPR</div>`)[0];
+                popup_a86aae2ef5a4cbc0748fa3a5015a37a9.setContent(html_f35e3c5b0a513417d152a174cc14d652);
+            
+        
+
+        marker_a642cfb64ac8a67d73d83d47a5fd776c.bindPopup(popup_a86aae2ef5a4cbc0748fa3a5015a37a9)
+        ;
+
+        
+    
+    
+                marker_a642cfb64ac8a67d73d83d47a5fd776c.setIcon(icon_c374e1860015670d33b1492fddc1ea82);
+            
+    
+            var marker_4ae5a0f90b28598941997938177ff4c2 = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_3232ff7d2430f1bf846c7a50a5097e66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87cbdced1a69f9ec703322600736f2cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00de747fc2a06c6b276b97ee40a9f1f6 = $(`<div id="html_00de747fc2a06c6b276b97ee40a9f1f6" style="width: 100.0%; height: 100.0%;">Golfutar: 475.00 Lakhs NPR</div>`)[0];
+                popup_87cbdced1a69f9ec703322600736f2cd.setContent(html_00de747fc2a06c6b276b97ee40a9f1f6);
+            
+        
+
+        marker_4ae5a0f90b28598941997938177ff4c2.bindPopup(popup_87cbdced1a69f9ec703322600736f2cd)
+        ;
+
+        
+    
+    
+                marker_4ae5a0f90b28598941997938177ff4c2.setIcon(icon_3232ff7d2430f1bf846c7a50a5097e66);
+            
+    
+            var marker_77a7e66bc77ff0d3942301e7dbfaa92f = L.marker(
+                [27.737, 85.311],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_3fef9f251f2acc8a71584011e9b8ea6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c843d2c5d78a7a6b7ee5e122e919f143 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf1428f7ea3c3638f3c80b61a429ec55 = $(`<div id="html_cf1428f7ea3c3638f3c80b61a429ec55" style="width: 100.0%; height: 100.0%;">Manamaiju: 280.00 Lakhs NPR</div>`)[0];
+                popup_c843d2c5d78a7a6b7ee5e122e919f143.setContent(html_cf1428f7ea3c3638f3c80b61a429ec55);
+            
+        
+
+        marker_77a7e66bc77ff0d3942301e7dbfaa92f.bindPopup(popup_c843d2c5d78a7a6b7ee5e122e919f143)
+        ;
+
+        
+    
+    
+                marker_77a7e66bc77ff0d3942301e7dbfaa92f.setIcon(icon_3fef9f251f2acc8a71584011e9b8ea6b);
+            
+    
+            var marker_24a33629cb5ecfecaa6d5cfa67636f59 = L.marker(
+                [27.76, 85.325],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_225be2a32d375db048d529dff81ceb58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5bb6a85a4015730b80aaaf3b74b629d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed6e4a5975fd0c97dcebec716a58de07 = $(`<div id="html_ed6e4a5975fd0c97dcebec716a58de07" style="width: 100.0%; height: 100.0%;">Tokha: 263.00 Lakhs NPR</div>`)[0];
+                popup_a5bb6a85a4015730b80aaaf3b74b629d.setContent(html_ed6e4a5975fd0c97dcebec716a58de07);
+            
+        
+
+        marker_24a33629cb5ecfecaa6d5cfa67636f59.bindPopup(popup_a5bb6a85a4015730b80aaaf3b74b629d)
+        ;
+
+        
+    
+    
+                marker_24a33629cb5ecfecaa6d5cfa67636f59.setIcon(icon_225be2a32d375db048d529dff81ceb58);
+            
+    
+            var marker_acde2d0128581bdd643ad38c42f8121c = L.marker(
+                [27.708, 85.279],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8f6e7c3ead0cd45dbcb0bd4f39ff5714 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0569dec78a7b981ac34126834e104549 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cebd4efb25a87c775e82d9c40575360 = $(`<div id="html_9cebd4efb25a87c775e82d9c40575360" style="width: 100.0%; height: 100.0%;">Sitapaila: 180.00 Lakhs NPR</div>`)[0];
+                popup_0569dec78a7b981ac34126834e104549.setContent(html_9cebd4efb25a87c775e82d9c40575360);
+            
+        
+
+        marker_acde2d0128581bdd643ad38c42f8121c.bindPopup(popup_0569dec78a7b981ac34126834e104549)
+        ;
+
+        
+    
+    
+                marker_acde2d0128581bdd643ad38c42f8121c.setIcon(icon_8f6e7c3ead0cd45dbcb0bd4f39ff5714);
+            
+    
+            var marker_3374af9aeb67018e90df6da02f296478 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_d035c27c7f5406efbc04bb7ec7029dd6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96e9312125187c89f1900b78815b3024 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a9c36969f3d14470cbba03cb3023413 = $(`<div id="html_6a9c36969f3d14470cbba03cb3023413" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 720.00 Lakhs NPR</div>`)[0];
+                popup_96e9312125187c89f1900b78815b3024.setContent(html_6a9c36969f3d14470cbba03cb3023413);
+            
+        
+
+        marker_3374af9aeb67018e90df6da02f296478.bindPopup(popup_96e9312125187c89f1900b78815b3024)
+        ;
+
+        
+    
+    
+                marker_3374af9aeb67018e90df6da02f296478.setIcon(icon_d035c27c7f5406efbc04bb7ec7029dd6);
+            
+    
+            var marker_f3cf4726d33614001612590be2e678bc = L.marker(
+                [27.736, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_29db348f240bc10651ba95437c1cecf1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12c3918174a3940d8f62f146cdb4d1d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77c05f05bdfa1954eb401e44979ae379 = $(`<div id="html_77c05f05bdfa1954eb401e44979ae379" style="width: 100.0%; height: 100.0%;">Mandikatar: 199.00 Lakhs NPR</div>`)[0];
+                popup_12c3918174a3940d8f62f146cdb4d1d4.setContent(html_77c05f05bdfa1954eb401e44979ae379);
+            
+        
+
+        marker_f3cf4726d33614001612590be2e678bc.bindPopup(popup_12c3918174a3940d8f62f146cdb4d1d4)
+        ;
+
+        
+    
+    
+                marker_f3cf4726d33614001612590be2e678bc.setIcon(icon_29db348f240bc10651ba95437c1cecf1);
+            
+    
+            var marker_b5020c61e7a3988f3f4c3f70ab3315bb = L.marker(
+                [27.744, 85.337],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_b6ce178c41ab6777bc06f46a720f17f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3cfb00837d6ca7ebe6379f59b7b811b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ecfaebaf926de1f90095a9c05855796 = $(`<div id="html_8ecfaebaf926de1f90095a9c05855796" style="width: 100.0%; height: 100.0%;">Dhapasi: 700.00 Lakhs NPR</div>`)[0];
+                popup_c3cfb00837d6ca7ebe6379f59b7b811b.setContent(html_8ecfaebaf926de1f90095a9c05855796);
+            
+        
+
+        marker_b5020c61e7a3988f3f4c3f70ab3315bb.bindPopup(popup_c3cfb00837d6ca7ebe6379f59b7b811b)
+        ;
+
+        
+    
+    
+                marker_b5020c61e7a3988f3f4c3f70ab3315bb.setIcon(icon_b6ce178c41ab6777bc06f46a720f17f1);
+            
+    
+            var marker_9d2598c5049e9a5bb3cfc3fb40821869 = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e4dd4bb65550de436d77dc3882a91171 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02e9bca9a3087be9174391574459ec03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6157c20a7308054358d38ad75df4dd91 = $(`<div id="html_6157c20a7308054358d38ad75df4dd91" style="width: 100.0%; height: 100.0%;">Pasikot: 325.00 Lakhs NPR</div>`)[0];
+                popup_02e9bca9a3087be9174391574459ec03.setContent(html_6157c20a7308054358d38ad75df4dd91);
+            
+        
+
+        marker_9d2598c5049e9a5bb3cfc3fb40821869.bindPopup(popup_02e9bca9a3087be9174391574459ec03)
+        ;
+
+        
+    
+    
+                marker_9d2598c5049e9a5bb3cfc3fb40821869.setIcon(icon_e4dd4bb65550de436d77dc3882a91171);
+            
+    
+            var marker_7bffb1009f5e83c0ddab33009aa077a7 = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_9f8312ba0c2db5a469d37160159c26c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae85e97b8702f947d1a052a93bca4c21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfa96f72a8c7de12d659dda08d89016f = $(`<div id="html_cfa96f72a8c7de12d659dda08d89016f" style="width: 100.0%; height: 100.0%;">Sukedhara: 325.00 Lakhs NPR</div>`)[0];
+                popup_ae85e97b8702f947d1a052a93bca4c21.setContent(html_cfa96f72a8c7de12d659dda08d89016f);
+            
+        
+
+        marker_7bffb1009f5e83c0ddab33009aa077a7.bindPopup(popup_ae85e97b8702f947d1a052a93bca4c21)
+        ;
+
+        
+    
+    
+                marker_7bffb1009f5e83c0ddab33009aa077a7.setIcon(icon_9f8312ba0c2db5a469d37160159c26c6);
+            
+    
+            var marker_3268c502dea02c40f6d61b19b599a2fb = L.marker(
+                [27.736, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_a4c77c68916df40b3f01dc626defe372 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11fb0d8d44e935a2fbd042f635f6eebe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab09816bb8d2c5dd98b0e9fcf96a2cef = $(`<div id="html_ab09816bb8d2c5dd98b0e9fcf96a2cef" style="width: 100.0%; height: 100.0%;">Mandikatar: 200.00 Lakhs NPR</div>`)[0];
+                popup_11fb0d8d44e935a2fbd042f635f6eebe.setContent(html_ab09816bb8d2c5dd98b0e9fcf96a2cef);
+            
+        
+
+        marker_3268c502dea02c40f6d61b19b599a2fb.bindPopup(popup_11fb0d8d44e935a2fbd042f635f6eebe)
+        ;
+
+        
+    
+    
+                marker_3268c502dea02c40f6d61b19b599a2fb.setIcon(icon_a4c77c68916df40b3f01dc626defe372);
+            
+    
+            var marker_f9169ec0a9fb21d42fbb43c14b081293 = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8a28b7d8cc65ebad9269180de1a15000 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_267f43957e93bb24aadfccfc8c943618 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a260c6fb1d1ad6c0b4e025bed29fb068 = $(`<div id="html_a260c6fb1d1ad6c0b4e025bed29fb068" style="width: 100.0%; height: 100.0%;">Golfutar: 325.00 Lakhs NPR</div>`)[0];
+                popup_267f43957e93bb24aadfccfc8c943618.setContent(html_a260c6fb1d1ad6c0b4e025bed29fb068);
+            
+        
+
+        marker_f9169ec0a9fb21d42fbb43c14b081293.bindPopup(popup_267f43957e93bb24aadfccfc8c943618)
+        ;
+
+        
+    
+    
+                marker_f9169ec0a9fb21d42fbb43c14b081293.setIcon(icon_8a28b7d8cc65ebad9269180de1a15000);
+            
+    
+            var marker_270bcd193e7e698d61a7d80c8ef25686 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c3b61600a3936e693cf3af899c37fb6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_177488033f920b1a8adc74e438950426 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2eaeaa696897f4ffe79770ba330629ac = $(`<div id="html_2eaeaa696897f4ffe79770ba330629ac" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 220.00 Lakhs NPR</div>`)[0];
+                popup_177488033f920b1a8adc74e438950426.setContent(html_2eaeaa696897f4ffe79770ba330629ac);
+            
+        
+
+        marker_270bcd193e7e698d61a7d80c8ef25686.bindPopup(popup_177488033f920b1a8adc74e438950426)
+        ;
+
+        
+    
+    
+                marker_270bcd193e7e698d61a7d80c8ef25686.setIcon(icon_c3b61600a3936e693cf3af899c37fb6c);
+            
+    
+            var marker_ea9ce9420129f9d3cf3a7a160495b127 = L.marker(
+                [27.76, 85.325],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_29125c29c479d78a769bd09015ba85a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77a0d23e9881163cb615ca88d4fb8d35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e7f39ec4a218d4fde4748777512a4c5 = $(`<div id="html_2e7f39ec4a218d4fde4748777512a4c5" style="width: 100.0%; height: 100.0%;">Tokha: 260.00 Lakhs NPR</div>`)[0];
+                popup_77a0d23e9881163cb615ca88d4fb8d35.setContent(html_2e7f39ec4a218d4fde4748777512a4c5);
+            
+        
+
+        marker_ea9ce9420129f9d3cf3a7a160495b127.bindPopup(popup_77a0d23e9881163cb615ca88d4fb8d35)
+        ;
+
+        
+    
+    
+                marker_ea9ce9420129f9d3cf3a7a160495b127.setIcon(icon_29125c29c479d78a769bd09015ba85a8);
+            
+    
+            var marker_f534f0eff05abff3b45d90fd2ebb9535 = L.marker(
+                [27.707, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_46164f465ecbf9f496313daa88e3ab1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3274c8c9795ae9643e74ae6f4691ad0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5770255d144311c2db49ee651f33792 = $(`<div id="html_d5770255d144311c2db49ee651f33792" style="width: 100.0%; height: 100.0%;">Banasthali: 370.00 Lakhs NPR</div>`)[0];
+                popup_3274c8c9795ae9643e74ae6f4691ad0c.setContent(html_d5770255d144311c2db49ee651f33792);
+            
+        
+
+        marker_f534f0eff05abff3b45d90fd2ebb9535.bindPopup(popup_3274c8c9795ae9643e74ae6f4691ad0c)
+        ;
+
+        
+    
+    
+                marker_f534f0eff05abff3b45d90fd2ebb9535.setIcon(icon_46164f465ecbf9f496313daa88e3ab1d);
+            
+    
+            var marker_4a5167c2a89b96be7427893a42ec4544 = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_0275114984514270365c95c14005fb23 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3243c02a76e06264caca2d2cb619829 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b5c2288292a7fbb5a04e9e3b8f8c6da = $(`<div id="html_2b5c2288292a7fbb5a04e9e3b8f8c6da" style="width: 100.0%; height: 100.0%;">Golfutar: 180.00 Lakhs NPR</div>`)[0];
+                popup_d3243c02a76e06264caca2d2cb619829.setContent(html_2b5c2288292a7fbb5a04e9e3b8f8c6da);
+            
+        
+
+        marker_4a5167c2a89b96be7427893a42ec4544.bindPopup(popup_d3243c02a76e06264caca2d2cb619829)
+        ;
+
+        
+    
+    
+                marker_4a5167c2a89b96be7427893a42ec4544.setIcon(icon_0275114984514270365c95c14005fb23);
+            
+    
+            var marker_bdff711090a04a9a857a4b81ec42840c = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_d2588ba58a9c31c38559567d3f3a16b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3eeea9e566ee7d83a45dc1b31762ab1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82baf08fe25bfb2949d255417ab4fba8 = $(`<div id="html_82baf08fe25bfb2949d255417ab4fba8" style="width: 100.0%; height: 100.0%;">Goldhunga: 20.00 Lakhs NPR</div>`)[0];
+                popup_3eeea9e566ee7d83a45dc1b31762ab1b.setContent(html_82baf08fe25bfb2949d255417ab4fba8);
+            
+        
+
+        marker_bdff711090a04a9a857a4b81ec42840c.bindPopup(popup_3eeea9e566ee7d83a45dc1b31762ab1b)
+        ;
+
+        
+    
+    
+                marker_bdff711090a04a9a857a4b81ec42840c.setIcon(icon_d2588ba58a9c31c38559567d3f3a16b7);
+            
+    
+            var marker_554c9b36eab44c69e1d4bdbefefc9bc5 = L.marker(
+                [27.727, 85.287],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_2c69b8ece627a790b679108c44ff982d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ac2502a2a308cd78f8ba30a53f0da80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ff04d444fde7e03e3b53851fc74df06 = $(`<div id="html_3ff04d444fde7e03e3b53851fc74df06" style="width: 100.0%; height: 100.0%;">Raniban: 40.00 Lakhs NPR</div>`)[0];
+                popup_5ac2502a2a308cd78f8ba30a53f0da80.setContent(html_3ff04d444fde7e03e3b53851fc74df06);
+            
+        
+
+        marker_554c9b36eab44c69e1d4bdbefefc9bc5.bindPopup(popup_5ac2502a2a308cd78f8ba30a53f0da80)
+        ;
+
+        
+    
+    
+                marker_554c9b36eab44c69e1d4bdbefefc9bc5.setIcon(icon_2c69b8ece627a790b679108c44ff982d);
+            
+    
+            var marker_151e7c8396dae49744e28b9d0a116b72 = L.marker(
+                [27.701, 85.271],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_936d974eb2eef750bae8dde404ae9795 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4a3fb5fa6a7ed4236bc4b0fc516024b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19f3c4876f83591a26ec28be3a845e65 = $(`<div id="html_19f3c4876f83591a26ec28be3a845e65" style="width: 100.0%; height: 100.0%;">Syuchatar: 165.00 Lakhs NPR</div>`)[0];
+                popup_d4a3fb5fa6a7ed4236bc4b0fc516024b.setContent(html_19f3c4876f83591a26ec28be3a845e65);
+            
+        
+
+        marker_151e7c8396dae49744e28b9d0a116b72.bindPopup(popup_d4a3fb5fa6a7ed4236bc4b0fc516024b)
+        ;
+
+        
+    
+    
+                marker_151e7c8396dae49744e28b9d0a116b72.setIcon(icon_936d974eb2eef750bae8dde404ae9795);
+            
+    
+            var marker_f8b21a056339d96dd5e3fa0673c189b1 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_916feaf310160b58bbe7e9c7dc897c08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d0f0c058c84599a4cf01857080447ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9a6391baced3cc547506912ecf32632 = $(`<div id="html_b9a6391baced3cc547506912ecf32632" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 22.00 Lakhs NPR</div>`)[0];
+                popup_8d0f0c058c84599a4cf01857080447ef.setContent(html_b9a6391baced3cc547506912ecf32632);
+            
+        
+
+        marker_f8b21a056339d96dd5e3fa0673c189b1.bindPopup(popup_8d0f0c058c84599a4cf01857080447ef)
+        ;
+
+        
+    
+    
+                marker_f8b21a056339d96dd5e3fa0673c189b1.setIcon(icon_916feaf310160b58bbe7e9c7dc897c08);
+            
+    
+            var marker_5ca8b63c1c804ab522f8e585f00f63ec = L.marker(
+                [27.736, 85.333],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_f0dc72cb7dc5738d1f837fdd5bd49019 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4c32412fbf0690a9871b3603689e2d14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b66e68a09ac64f0f773ffb515085abe7 = $(`<div id="html_b66e68a09ac64f0f773ffb515085abe7" style="width: 100.0%; height: 100.0%;">Maharajgunj: 625.00 Lakhs NPR</div>`)[0];
+                popup_4c32412fbf0690a9871b3603689e2d14.setContent(html_b66e68a09ac64f0f773ffb515085abe7);
+            
+        
+
+        marker_5ca8b63c1c804ab522f8e585f00f63ec.bindPopup(popup_4c32412fbf0690a9871b3603689e2d14)
+        ;
+
+        
+    
+    
+                marker_5ca8b63c1c804ab522f8e585f00f63ec.setIcon(icon_f0dc72cb7dc5738d1f837fdd5bd49019);
+            
+    
+            var marker_a028b9b083cb007907a4ce02a8fb0c94 = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_1bc5297c9a607f4f33a1b20b4e30e5e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ca3f3a7d03ea84bc5972e37e1d29a31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e88bf08b1380992fa96a543baf602305 = $(`<div id="html_e88bf08b1380992fa96a543baf602305" style="width: 100.0%; height: 100.0%;">Golfutar: 300.00 Lakhs NPR</div>`)[0];
+                popup_7ca3f3a7d03ea84bc5972e37e1d29a31.setContent(html_e88bf08b1380992fa96a543baf602305);
+            
+        
+
+        marker_a028b9b083cb007907a4ce02a8fb0c94.bindPopup(popup_7ca3f3a7d03ea84bc5972e37e1d29a31)
+        ;
+
+        
+    
+    
+                marker_a028b9b083cb007907a4ce02a8fb0c94.setIcon(icon_1bc5297c9a607f4f33a1b20b4e30e5e6);
+            
+    
+            var marker_d73021af20a1baef8e0f07b7eb61a784 = L.marker(
+                [27.748, 85.298],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c7a1f09c7644a9df5a0c421ece9c929f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7d9b711ba62619f64b8cda385f69384 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a07e41831a873c1908299ddbb75d20d = $(`<div id="html_1a07e41831a873c1908299ddbb75d20d" style="width: 100.0%; height: 100.0%;">Kavresthali: 120.00 Lakhs NPR</div>`)[0];
+                popup_a7d9b711ba62619f64b8cda385f69384.setContent(html_1a07e41831a873c1908299ddbb75d20d);
+            
+        
+
+        marker_d73021af20a1baef8e0f07b7eb61a784.bindPopup(popup_a7d9b711ba62619f64b8cda385f69384)
+        ;
+
+        
+    
+    
+                marker_d73021af20a1baef8e0f07b7eb61a784.setIcon(icon_c7a1f09c7644a9df5a0c421ece9c929f);
+            
+    
+            var marker_6aad598451c37063bfd3b165adf1f600 = L.marker(
+                [27.736, 85.333],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_78ec13e9b0f3c06269d9462797200250 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_626655790a488ad27493aceada1072b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa209ba8d69586a1f54f5b39cecc6968 = $(`<div id="html_fa209ba8d69586a1f54f5b39cecc6968" style="width: 100.0%; height: 100.0%;">Maharajgunj: 650.00 Lakhs NPR</div>`)[0];
+                popup_626655790a488ad27493aceada1072b1.setContent(html_fa209ba8d69586a1f54f5b39cecc6968);
+            
+        
+
+        marker_6aad598451c37063bfd3b165adf1f600.bindPopup(popup_626655790a488ad27493aceada1072b1)
+        ;
+
+        
+    
+    
+                marker_6aad598451c37063bfd3b165adf1f600.setIcon(icon_78ec13e9b0f3c06269d9462797200250);
+            
+    
+            var marker_bc9c41bd49adea197652b4e18f36b13f = L.marker(
+                [27.693, 85.374],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_47992f8321bb48d5972761629396790c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aee859e3ad881aa545b2da1d03dda1a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdbd68f937948912fce3e52d436404e5 = $(`<div id="html_cdbd68f937948912fce3e52d436404e5" style="width: 100.0%; height: 100.0%;">Pepsicola: 40.00 Lakhs NPR</div>`)[0];
+                popup_aee859e3ad881aa545b2da1d03dda1a5.setContent(html_cdbd68f937948912fce3e52d436404e5);
+            
+        
+
+        marker_bc9c41bd49adea197652b4e18f36b13f.bindPopup(popup_aee859e3ad881aa545b2da1d03dda1a5)
+        ;
+
+        
+    
+    
+                marker_bc9c41bd49adea197652b4e18f36b13f.setIcon(icon_47992f8321bb48d5972761629396790c);
+            
+    
+            var marker_df477151e480dc3057bf0c5f40522223 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8dee8506592aa6b2fc6e9f02bc92d753 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c28dcc08e8e9e0f1b437c0f3e1ce919f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a1c9df1c748bab05a74dcda2ffb29f6 = $(`<div id="html_1a1c9df1c748bab05a74dcda2ffb29f6" style="width: 100.0%; height: 100.0%;">Hattigauda: 180.00 Lakhs NPR</div>`)[0];
+                popup_c28dcc08e8e9e0f1b437c0f3e1ce919f.setContent(html_1a1c9df1c748bab05a74dcda2ffb29f6);
+            
+        
+
+        marker_df477151e480dc3057bf0c5f40522223.bindPopup(popup_c28dcc08e8e9e0f1b437c0f3e1ce919f)
+        ;
+
+        
+    
+    
+                marker_df477151e480dc3057bf0c5f40522223.setIcon(icon_8dee8506592aa6b2fc6e9f02bc92d753);
+            
+    
+            var marker_26738dcb23228ce4d2cb57f23ceba848 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_0e5a42795fc01a17e3e0a978a255d4d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_697781320f90cd5a7755f4149f1c0651 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1db39789da62b2213681b02bf552ab5b = $(`<div id="html_1db39789da62b2213681b02bf552ab5b" style="width: 100.0%; height: 100.0%;">Hattigauda: 350.00 Lakhs NPR</div>`)[0];
+                popup_697781320f90cd5a7755f4149f1c0651.setContent(html_1db39789da62b2213681b02bf552ab5b);
+            
+        
+
+        marker_26738dcb23228ce4d2cb57f23ceba848.bindPopup(popup_697781320f90cd5a7755f4149f1c0651)
+        ;
+
+        
+    
+    
+                marker_26738dcb23228ce4d2cb57f23ceba848.setIcon(icon_0e5a42795fc01a17e3e0a978a255d4d4);
+            
+    
+            var marker_7e846aeed0655001ba46d9bc4a90e50e = L.marker(
+                [27.693, 85.374],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_570f8e6b7547336d24299f743f8c4927 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec1dd7997f45f16639d0c914b9c99176 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f51d236a6febf5df8c02963eb25d079d = $(`<div id="html_f51d236a6febf5df8c02963eb25d079d" style="width: 100.0%; height: 100.0%;">Pepsicola: 55.00 Lakhs NPR</div>`)[0];
+                popup_ec1dd7997f45f16639d0c914b9c99176.setContent(html_f51d236a6febf5df8c02963eb25d079d);
+            
+        
+
+        marker_7e846aeed0655001ba46d9bc4a90e50e.bindPopup(popup_ec1dd7997f45f16639d0c914b9c99176)
+        ;
+
+        
+    
+    
+                marker_7e846aeed0655001ba46d9bc4a90e50e.setIcon(icon_570f8e6b7547336d24299f743f8c4927);
+            
+    
+            var marker_c89b5c27cdd8a3f615f6650748a29b41 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c29beb410a4c01062a09d224767ddd43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d2d399aa8b3dbda363e7d3ab655d329 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4167d62c7b527d8a1fa2ba3b038c4a8c = $(`<div id="html_4167d62c7b527d8a1fa2ba3b038c4a8c" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 22.25 Lakhs NPR</div>`)[0];
+                popup_6d2d399aa8b3dbda363e7d3ab655d329.setContent(html_4167d62c7b527d8a1fa2ba3b038c4a8c);
+            
+        
+
+        marker_c89b5c27cdd8a3f615f6650748a29b41.bindPopup(popup_6d2d399aa8b3dbda363e7d3ab655d329)
+        ;
+
+        
+    
+    
+                marker_c89b5c27cdd8a3f615f6650748a29b41.setIcon(icon_c29beb410a4c01062a09d224767ddd43);
+            
+    
+            var marker_8475451de2158109ecfb121044beb3f7 = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_2c85a55060a3b34b9dda67ec625ccc33 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc91e9d6f04ffd8392205ce579dfd412 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbebd1a0d16170631bc87d6b3608708e = $(`<div id="html_dbebd1a0d16170631bc87d6b3608708e" style="width: 100.0%; height: 100.0%;">Goldhunga: 15.00 Lakhs NPR</div>`)[0];
+                popup_cc91e9d6f04ffd8392205ce579dfd412.setContent(html_dbebd1a0d16170631bc87d6b3608708e);
+            
+        
+
+        marker_8475451de2158109ecfb121044beb3f7.bindPopup(popup_cc91e9d6f04ffd8392205ce579dfd412)
+        ;
+
+        
+    
+    
+                marker_8475451de2158109ecfb121044beb3f7.setIcon(icon_2c85a55060a3b34b9dda67ec625ccc33);
+            
+    
+            var marker_77ee9e1cfb68abb3121370dfd62cff8c = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_9e9a463792edd24b82b5866cb842ad6b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f68eaa510f99d4564153cb00965d59f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a788e014db9226cf300c099388ef9987 = $(`<div id="html_a788e014db9226cf300c099388ef9987" style="width: 100.0%; height: 100.0%;">Goldhunga: 250.00 Lakhs NPR</div>`)[0];
+                popup_f68eaa510f99d4564153cb00965d59f6.setContent(html_a788e014db9226cf300c099388ef9987);
+            
+        
+
+        marker_77ee9e1cfb68abb3121370dfd62cff8c.bindPopup(popup_f68eaa510f99d4564153cb00965d59f6)
+        ;
+
+        
+    
+    
+                marker_77ee9e1cfb68abb3121370dfd62cff8c.setIcon(icon_9e9a463792edd24b82b5866cb842ad6b);
+            
+    
+            var marker_6ebb480ca1d77cfe36a6d4ef38e9bbdd = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_29b31f9d422b42b428caa618a75562ee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93c7e67572361d440af0c38ef2e23c29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4111b4056f6b667a63beb79f0a8c20c = $(`<div id="html_a4111b4056f6b667a63beb79f0a8c20c" style="width: 100.0%; height: 100.0%;">Sukedhara: 225.00 Lakhs NPR</div>`)[0];
+                popup_93c7e67572361d440af0c38ef2e23c29.setContent(html_a4111b4056f6b667a63beb79f0a8c20c);
+            
+        
+
+        marker_6ebb480ca1d77cfe36a6d4ef38e9bbdd.bindPopup(popup_93c7e67572361d440af0c38ef2e23c29)
+        ;
+
+        
+    
+    
+                marker_6ebb480ca1d77cfe36a6d4ef38e9bbdd.setIcon(icon_29b31f9d422b42b428caa618a75562ee);
+            
+    
+            var marker_ca565201322e12221e85a6f90d8b4f22 = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_189ead64307cb6733000a758a1cbaf0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90919e3f0dd1eefd91a36b419ae13287 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfdfe4b6f4e99c8de52639e8e4b76df1 = $(`<div id="html_bfdfe4b6f4e99c8de52639e8e4b76df1" style="width: 100.0%; height: 100.0%;">Sukedhara: 235.00 Lakhs NPR</div>`)[0];
+                popup_90919e3f0dd1eefd91a36b419ae13287.setContent(html_bfdfe4b6f4e99c8de52639e8e4b76df1);
+            
+        
+
+        marker_ca565201322e12221e85a6f90d8b4f22.bindPopup(popup_90919e3f0dd1eefd91a36b419ae13287)
+        ;
+
+        
+    
+    
+                marker_ca565201322e12221e85a6f90d8b4f22.setIcon(icon_189ead64307cb6733000a758a1cbaf0d);
+            
+    
+            var marker_6eaa418d2b8ce7f094b1b5af53bb2083 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_6a0e671330e4911376de3cd6938bf658 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41e7be7826c5ed53ac3e1011a5154885 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_008a1c56132485308e0d8a84796bbce6 = $(`<div id="html_008a1c56132485308e0d8a84796bbce6" style="width: 100.0%; height: 100.0%;">Hattigauda: 9.00 Lakhs NPR</div>`)[0];
+                popup_41e7be7826c5ed53ac3e1011a5154885.setContent(html_008a1c56132485308e0d8a84796bbce6);
+            
+        
+
+        marker_6eaa418d2b8ce7f094b1b5af53bb2083.bindPopup(popup_41e7be7826c5ed53ac3e1011a5154885)
+        ;
+
+        
+    
+    
+                marker_6eaa418d2b8ce7f094b1b5af53bb2083.setIcon(icon_6a0e671330e4911376de3cd6938bf658);
+            
+    
+            var marker_3e09dffba40b621d66bd1584729ffa75 = L.marker(
+                [27.715, 85.291],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e960ec2acd0635abfecd705df3c72106 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8218e8ca4b81eb810feff476c86c48bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db48578f4f8ae58540be190cc87696eb = $(`<div id="html_db48578f4f8ae58540be190cc87696eb" style="width: 100.0%; height: 100.0%;">Swayambhu: 16.00 Lakhs NPR</div>`)[0];
+                popup_8218e8ca4b81eb810feff476c86c48bb.setContent(html_db48578f4f8ae58540be190cc87696eb);
+            
+        
+
+        marker_3e09dffba40b621d66bd1584729ffa75.bindPopup(popup_8218e8ca4b81eb810feff476c86c48bb)
+        ;
+
+        
+    
+    
+                marker_3e09dffba40b621d66bd1584729ffa75.setIcon(icon_e960ec2acd0635abfecd705df3c72106);
+            
+    
+            var marker_098a4f2913ef2f0fec812e8ce883199a = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_60d6a480459e71ec81f05c1ab97878a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf90ec950b66052d2f75439182ceb1b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea5ea42cf07a03965b301df28ef11ba9 = $(`<div id="html_ea5ea42cf07a03965b301df28ef11ba9" style="width: 100.0%; height: 100.0%;">Hattigauda: 900.00 Lakhs NPR</div>`)[0];
+                popup_cf90ec950b66052d2f75439182ceb1b9.setContent(html_ea5ea42cf07a03965b301df28ef11ba9);
+            
+        
+
+        marker_098a4f2913ef2f0fec812e8ce883199a.bindPopup(popup_cf90ec950b66052d2f75439182ceb1b9)
+        ;
+
+        
+    
+    
+                marker_098a4f2913ef2f0fec812e8ce883199a.setIcon(icon_60d6a480459e71ec81f05c1ab97878a7);
+            
+    
+            var marker_81f683a9a18f5ee9e298b9f664136e1b = L.marker(
+                [27.736, 85.333],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_7329196e914bf5c879b20cc96e5b5072 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d92cc0534128984c3a7cdd6d6f41e11e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03c31ea27cd9010795c46eb1cdd7665f = $(`<div id="html_03c31ea27cd9010795c46eb1cdd7665f" style="width: 100.0%; height: 100.0%;">Maharajgunj: 700.00 Lakhs NPR</div>`)[0];
+                popup_d92cc0534128984c3a7cdd6d6f41e11e.setContent(html_03c31ea27cd9010795c46eb1cdd7665f);
+            
+        
+
+        marker_81f683a9a18f5ee9e298b9f664136e1b.bindPopup(popup_d92cc0534128984c3a7cdd6d6f41e11e)
+        ;
+
+        
+    
+    
+                marker_81f683a9a18f5ee9e298b9f664136e1b.setIcon(icon_7329196e914bf5c879b20cc96e5b5072);
+            
+    
+            var marker_1b35b777a09e151ac7c34b83aa9ff258 = L.marker(
+                [27.737, 85.362],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_9861353a05596f2e009980770f509731 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa16dc1260827ae45c3807acc7c424a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edbdda1b0efc78e9d24e5f04cd33eba2 = $(`<div id="html_edbdda1b0efc78e9d24e5f04cd33eba2" style="width: 100.0%; height: 100.0%;">Kapan: 75.00 Lakhs NPR</div>`)[0];
+                popup_aa16dc1260827ae45c3807acc7c424a7.setContent(html_edbdda1b0efc78e9d24e5f04cd33eba2);
+            
+        
+
+        marker_1b35b777a09e151ac7c34b83aa9ff258.bindPopup(popup_aa16dc1260827ae45c3807acc7c424a7)
+        ;
+
+        
+    
+    
+                marker_1b35b777a09e151ac7c34b83aa9ff258.setIcon(icon_9861353a05596f2e009980770f509731);
+            
+    
+            var marker_42419277849fe4ef4c2027874b6bf1b8 = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c74afcaf5c673662babd1e07cb3fff4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c1dd84ad540a5774a62db38c363ea09b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80248d7cc0adf02e4e6d3994a48111a5 = $(`<div id="html_80248d7cc0adf02e4e6d3994a48111a5" style="width: 100.0%; height: 100.0%;">Goldhunga: 13.50 Lakhs NPR</div>`)[0];
+                popup_c1dd84ad540a5774a62db38c363ea09b.setContent(html_80248d7cc0adf02e4e6d3994a48111a5);
+            
+        
+
+        marker_42419277849fe4ef4c2027874b6bf1b8.bindPopup(popup_c1dd84ad540a5774a62db38c363ea09b)
+        ;
+
+        
+    
+    
+                marker_42419277849fe4ef4c2027874b6bf1b8.setIcon(icon_c74afcaf5c673662babd1e07cb3fff4e);
+            
+    
+            var marker_e106d100eaab16fd8073a49ca4925822 = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_76388811f6130fb4f31cdfbb4dfe68d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5585aa7a05148c40687dc4d8c9e80c67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3fb320b126fa54c3abb510ea07ae715 = $(`<div id="html_d3fb320b126fa54c3abb510ea07ae715" style="width: 100.0%; height: 100.0%;">Goldhunga: 52.00 Lakhs NPR</div>`)[0];
+                popup_5585aa7a05148c40687dc4d8c9e80c67.setContent(html_d3fb320b126fa54c3abb510ea07ae715);
+            
+        
+
+        marker_e106d100eaab16fd8073a49ca4925822.bindPopup(popup_5585aa7a05148c40687dc4d8c9e80c67)
+        ;
+
+        
+    
+    
+                marker_e106d100eaab16fd8073a49ca4925822.setIcon(icon_76388811f6130fb4f31cdfbb4dfe68d2);
+            
+    
+            var marker_5ab9a45ee5aeb7f2662282e2bc222062 = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_39dbb960f0df9d10118ba843f56fe2e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e7253724b0587613d099c329763a252 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3f61984a32119cb91b1557dbab34885 = $(`<div id="html_e3f61984a32119cb91b1557dbab34885" style="width: 100.0%; height: 100.0%;">Goldhunga: 130.00 Lakhs NPR</div>`)[0];
+                popup_2e7253724b0587613d099c329763a252.setContent(html_e3f61984a32119cb91b1557dbab34885);
+            
+        
+
+        marker_5ab9a45ee5aeb7f2662282e2bc222062.bindPopup(popup_2e7253724b0587613d099c329763a252)
+        ;
+
+        
+    
+    
+                marker_5ab9a45ee5aeb7f2662282e2bc222062.setIcon(icon_39dbb960f0df9d10118ba843f56fe2e6);
+            
+    
+            var marker_4d5ed0714767699b92dc6e2b1255ecfa = L.marker(
+                [27.727, 85.334],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_4a0557f332c7541ec9e312ee89032159 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f6e5c1cefce681fade7e4a8b8c8a952 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_334d40112960d75652b04dd681e5e477 = $(`<div id="html_334d40112960d75652b04dd681e5e477" style="width: 100.0%; height: 100.0%;">Baluwatar: 60.00 Lakhs NPR</div>`)[0];
+                popup_0f6e5c1cefce681fade7e4a8b8c8a952.setContent(html_334d40112960d75652b04dd681e5e477);
+            
+        
+
+        marker_4d5ed0714767699b92dc6e2b1255ecfa.bindPopup(popup_0f6e5c1cefce681fade7e4a8b8c8a952)
+        ;
+
+        
+    
+    
+                marker_4d5ed0714767699b92dc6e2b1255ecfa.setIcon(icon_4a0557f332c7541ec9e312ee89032159);
+            
+    
+            var marker_536df6d4cd64457bbbca3de30aac5705 = L.marker(
+                [27.744, 85.337],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8fcddf818a72083a3e17aa5f0ff29513 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe2373bf8a5b7ca976a8f8a28851d8f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0953576a00a5b42c0aad7031b43938a6 = $(`<div id="html_0953576a00a5b42c0aad7031b43938a6" style="width: 100.0%; height: 100.0%;">Dhapasi: 700.00 Lakhs NPR</div>`)[0];
+                popup_fe2373bf8a5b7ca976a8f8a28851d8f8.setContent(html_0953576a00a5b42c0aad7031b43938a6);
+            
+        
+
+        marker_536df6d4cd64457bbbca3de30aac5705.bindPopup(popup_fe2373bf8a5b7ca976a8f8a28851d8f8)
+        ;
+
+        
+    
+    
+                marker_536df6d4cd64457bbbca3de30aac5705.setIcon(icon_8fcddf818a72083a3e17aa5f0ff29513);
+            
+    
+            var marker_8473da3991eab8d13b8b0e8c10e0150c = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c1ebe3df1c989e3b1bcd4883f4bdb81b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b31b73ec693764c237ec4ebdfc16eb0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c9890a3236fed414e18d14acec8580d = $(`<div id="html_5c9890a3236fed414e18d14acec8580d" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 300.00 Lakhs NPR</div>`)[0];
+                popup_b31b73ec693764c237ec4ebdfc16eb0a.setContent(html_5c9890a3236fed414e18d14acec8580d);
+            
+        
+
+        marker_8473da3991eab8d13b8b0e8c10e0150c.bindPopup(popup_b31b73ec693764c237ec4ebdfc16eb0a)
+        ;
+
+        
+    
+    
+                marker_8473da3991eab8d13b8b0e8c10e0150c.setIcon(icon_c1ebe3df1c989e3b1bcd4883f4bdb81b);
+            
+    
+            var marker_671f67ad1e42526ba1d5f717f99bbc28 = L.marker(
+                [27.707, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_48e951c6f31bd3e3e44c4a250e8dc739 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_152000729a5cc31c6bc06c7d66070377 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6cbeb5502e4684ebb54a8c8cf4138a8 = $(`<div id="html_b6cbeb5502e4684ebb54a8c8cf4138a8" style="width: 100.0%; height: 100.0%;">Banasthali: 225.00 Lakhs NPR</div>`)[0];
+                popup_152000729a5cc31c6bc06c7d66070377.setContent(html_b6cbeb5502e4684ebb54a8c8cf4138a8);
+            
+        
+
+        marker_671f67ad1e42526ba1d5f717f99bbc28.bindPopup(popup_152000729a5cc31c6bc06c7d66070377)
+        ;
+
+        
+    
+    
+                marker_671f67ad1e42526ba1d5f717f99bbc28.setIcon(icon_48e951c6f31bd3e3e44c4a250e8dc739);
+            
+    
+            var marker_c6ee42e936234202eabcee5e29b7b2f7 = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_29690bb6b0d6229abd7e6abb98e6f630 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83a6138ce9ea80e3584b5c2144ee600a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b653041c0d24ef5c2f9ff5eb73eaccc = $(`<div id="html_5b653041c0d24ef5c2f9ff5eb73eaccc" style="width: 100.0%; height: 100.0%;">Pasikot: 20.00 Lakhs NPR</div>`)[0];
+                popup_83a6138ce9ea80e3584b5c2144ee600a.setContent(html_5b653041c0d24ef5c2f9ff5eb73eaccc);
+            
+        
+
+        marker_c6ee42e936234202eabcee5e29b7b2f7.bindPopup(popup_83a6138ce9ea80e3584b5c2144ee600a)
+        ;
+
+        
+    
+    
+                marker_c6ee42e936234202eabcee5e29b7b2f7.setIcon(icon_29690bb6b0d6229abd7e6abb98e6f630);
+            
+    
+            var marker_2508628f921709f08f8af44f8416cdc1 = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8f0e4bb5b7003a742d701fd93aeb6f4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5da63d206ef8aaa28b257fbb3e727eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11fdd83e94b6e75b460e0cc13ca2e2cb = $(`<div id="html_11fdd83e94b6e75b460e0cc13ca2e2cb" style="width: 100.0%; height: 100.0%;">Pasikot: 19.00 Lakhs NPR</div>`)[0];
+                popup_f5da63d206ef8aaa28b257fbb3e727eb.setContent(html_11fdd83e94b6e75b460e0cc13ca2e2cb);
+            
+        
+
+        marker_2508628f921709f08f8af44f8416cdc1.bindPopup(popup_f5da63d206ef8aaa28b257fbb3e727eb)
+        ;
+
+        
+    
+    
+                marker_2508628f921709f08f8af44f8416cdc1.setIcon(icon_8f0e4bb5b7003a742d701fd93aeb6f4e);
+            
+    
+            var marker_aa37e1dfee4ba0926e7e386af838bf2f = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_91df7be1d8085ab981d3e0e5661fde82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78fb6f66f591b0c2ccf89b148dec9240 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb5cebdfba7b99755d60915895202a99 = $(`<div id="html_fb5cebdfba7b99755d60915895202a99" style="width: 100.0%; height: 100.0%;">Goldhunga: 10.00 Lakhs NPR</div>`)[0];
+                popup_78fb6f66f591b0c2ccf89b148dec9240.setContent(html_fb5cebdfba7b99755d60915895202a99);
+            
+        
+
+        marker_aa37e1dfee4ba0926e7e386af838bf2f.bindPopup(popup_78fb6f66f591b0c2ccf89b148dec9240)
+        ;
+
+        
+    
+    
+                marker_aa37e1dfee4ba0926e7e386af838bf2f.setIcon(icon_91df7be1d8085ab981d3e0e5661fde82);
+            
+    
+            var marker_b002cf1bfdeebf72c3e82c72a89758c6 = L.marker(
+                [27.744, 85.337],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_32794b1fe465c9ba914b49a3e10ef572 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e2395c2840d5ba2ceef90ec1e0783b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46b6ee3601ce38ea2911da45db742d45 = $(`<div id="html_46b6ee3601ce38ea2911da45db742d45" style="width: 100.0%; height: 100.0%;">Dhapasi: 125.00 Lakhs NPR</div>`)[0];
+                popup_8e2395c2840d5ba2ceef90ec1e0783b1.setContent(html_46b6ee3601ce38ea2911da45db742d45);
+            
+        
+
+        marker_b002cf1bfdeebf72c3e82c72a89758c6.bindPopup(popup_8e2395c2840d5ba2ceef90ec1e0783b1)
+        ;
+
+        
+    
+    
+                marker_b002cf1bfdeebf72c3e82c72a89758c6.setIcon(icon_32794b1fe465c9ba914b49a3e10ef572);
+            
+    
+            var marker_abb957897a1369aac0a9ca7e0880c34f = L.marker(
+                [27.727, 85.334],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_612bff986f04fcc6dd7e2e8af0b35e6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc6559b4ebe7c671525a177d739f7078 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00e6b28e9c0045882c2dd48beabd7f7c = $(`<div id="html_00e6b28e9c0045882c2dd48beabd7f7c" style="width: 100.0%; height: 100.0%;">Baluwatar: 460.00 Lakhs NPR</div>`)[0];
+                popup_fc6559b4ebe7c671525a177d739f7078.setContent(html_00e6b28e9c0045882c2dd48beabd7f7c);
+            
+        
+
+        marker_abb957897a1369aac0a9ca7e0880c34f.bindPopup(popup_fc6559b4ebe7c671525a177d739f7078)
+        ;
+
+        
+    
+    
+                marker_abb957897a1369aac0a9ca7e0880c34f.setIcon(icon_612bff986f04fcc6dd7e2e8af0b35e6d);
+            
+    
+            var marker_d0152d8d17465043693c7d964be2c7cd = L.marker(
+                [27.748, 85.298],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_89a10719a7b52df117f88503bd0ff492 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_562e7826f66fe223e106ca59dbe73127 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_335c0d31a1faa16a7265217bc4ae429a = $(`<div id="html_335c0d31a1faa16a7265217bc4ae429a" style="width: 100.0%; height: 100.0%;">Kavresthali: 190.00 Lakhs NPR</div>`)[0];
+                popup_562e7826f66fe223e106ca59dbe73127.setContent(html_335c0d31a1faa16a7265217bc4ae429a);
+            
+        
+
+        marker_d0152d8d17465043693c7d964be2c7cd.bindPopup(popup_562e7826f66fe223e106ca59dbe73127)
+        ;
+
+        
+    
+    
+                marker_d0152d8d17465043693c7d964be2c7cd.setIcon(icon_89a10719a7b52df117f88503bd0ff492);
+            
+    
+            var marker_bfbfeef267623fd5647e07159a4baff1 = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_d8db87d44c0375dbb747f6f0894fe379 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef2394e51fad092ad50896a64d310b69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be617cd7c8f3a5bfdca075d8c75c736d = $(`<div id="html_be617cd7c8f3a5bfdca075d8c75c736d" style="width: 100.0%; height: 100.0%;">Sukedhara: 400.00 Lakhs NPR</div>`)[0];
+                popup_ef2394e51fad092ad50896a64d310b69.setContent(html_be617cd7c8f3a5bfdca075d8c75c736d);
+            
+        
+
+        marker_bfbfeef267623fd5647e07159a4baff1.bindPopup(popup_ef2394e51fad092ad50896a64d310b69)
+        ;
+
+        
+    
+    
+                marker_bfbfeef267623fd5647e07159a4baff1.setIcon(icon_d8db87d44c0375dbb747f6f0894fe379);
+            
+    
+            var marker_9a0ba83c7b7ec3246d40eae10c86f540 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_bbaa4c8d4f94eb1f31a245d0f3f2ebfc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46d7b8734aabb7b35d69368fa7c48493 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14e7fc4f979e3ca8155087763e73c777 = $(`<div id="html_14e7fc4f979e3ca8155087763e73c777" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 26.00 Lakhs NPR</div>`)[0];
+                popup_46d7b8734aabb7b35d69368fa7c48493.setContent(html_14e7fc4f979e3ca8155087763e73c777);
+            
+        
+
+        marker_9a0ba83c7b7ec3246d40eae10c86f540.bindPopup(popup_46d7b8734aabb7b35d69368fa7c48493)
+        ;
+
+        
+    
+    
+                marker_9a0ba83c7b7ec3246d40eae10c86f540.setIcon(icon_bbaa4c8d4f94eb1f31a245d0f3f2ebfc);
+            
+    
+            var marker_16e1eb179e0e190925036ae7d2e68bba = L.marker(
+                [27.737, 85.362],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_ddc3db3cfed2c44cb55dc87bb18bacbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2a2b6411cf3cbea6b9d85590c86c062 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e4f4ead89ecc205ee616c1fa9193978 = $(`<div id="html_3e4f4ead89ecc205ee616c1fa9193978" style="width: 100.0%; height: 100.0%;">Kapan: 106.00 Lakhs NPR</div>`)[0];
+                popup_e2a2b6411cf3cbea6b9d85590c86c062.setContent(html_3e4f4ead89ecc205ee616c1fa9193978);
+            
+        
+
+        marker_16e1eb179e0e190925036ae7d2e68bba.bindPopup(popup_e2a2b6411cf3cbea6b9d85590c86c062)
+        ;
+
+        
+    
+    
+                marker_16e1eb179e0e190925036ae7d2e68bba.setIcon(icon_ddc3db3cfed2c44cb55dc87bb18bacbe);
+            
+    
+            var marker_fe94e58da8c65c13021aee810028145f = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_ec366bd8d3dea297e49ca3a6f5f45c89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f374224da9a34a1f9602428914508c0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bbda88c19c672f3043fa8d91bb03755 = $(`<div id="html_5bbda88c19c672f3043fa8d91bb03755" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 390.00 Lakhs NPR</div>`)[0];
+                popup_f374224da9a34a1f9602428914508c0a.setContent(html_5bbda88c19c672f3043fa8d91bb03755);
+            
+        
+
+        marker_fe94e58da8c65c13021aee810028145f.bindPopup(popup_f374224da9a34a1f9602428914508c0a)
+        ;
+
+        
+    
+    
+                marker_fe94e58da8c65c13021aee810028145f.setIcon(icon_ec366bd8d3dea297e49ca3a6f5f45c89);
+            
+    
+            var marker_7b45516ef1572717c47f934961a3e588 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_550b41ec1c1263da5761a1f18f1171ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb4f78362c9cc717576a5ef72caafdf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5b4f7ee63e694a17cf499377e854092 = $(`<div id="html_c5b4f7ee63e694a17cf499377e854092" style="width: 100.0%; height: 100.0%;">Hattigauda: 28.00 Lakhs NPR</div>`)[0];
+                popup_cb4f78362c9cc717576a5ef72caafdf5.setContent(html_c5b4f7ee63e694a17cf499377e854092);
+            
+        
+
+        marker_7b45516ef1572717c47f934961a3e588.bindPopup(popup_cb4f78362c9cc717576a5ef72caafdf5)
+        ;
+
+        
+    
+    
+                marker_7b45516ef1572717c47f934961a3e588.setIcon(icon_550b41ec1c1263da5761a1f18f1171ec);
+            
+    
+            var marker_185fc1387373650684053e7911ddf178 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_268b9cbcd311eb2b040c0203d357b2c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9ea4246359df79b42cb9f472adfaecf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a46f110443d0020628d75bc9f9db0ec = $(`<div id="html_6a46f110443d0020628d75bc9f9db0ec" style="width: 100.0%; height: 100.0%;">Hattigauda: 615.00 Lakhs NPR</div>`)[0];
+                popup_c9ea4246359df79b42cb9f472adfaecf.setContent(html_6a46f110443d0020628d75bc9f9db0ec);
+            
+        
+
+        marker_185fc1387373650684053e7911ddf178.bindPopup(popup_c9ea4246359df79b42cb9f472adfaecf)
+        ;
+
+        
+    
+    
+                marker_185fc1387373650684053e7911ddf178.setIcon(icon_268b9cbcd311eb2b040c0203d357b2c2);
+            
+    
+            var marker_04bb705730fd2e4b48b5d399d8e32e2d = L.marker(
+                [27.707, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_94cdef44dcdf699323b489df61afcc94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_592da3fc91acd8cdbcc9d73461d53203 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42346a461b6d2135cbfeecafdc50172e = $(`<div id="html_42346a461b6d2135cbfeecafdc50172e" style="width: 100.0%; height: 100.0%;">Banasthali: 700.00 Lakhs NPR</div>`)[0];
+                popup_592da3fc91acd8cdbcc9d73461d53203.setContent(html_42346a461b6d2135cbfeecafdc50172e);
+            
+        
+
+        marker_04bb705730fd2e4b48b5d399d8e32e2d.bindPopup(popup_592da3fc91acd8cdbcc9d73461d53203)
+        ;
+
+        
+    
+    
+                marker_04bb705730fd2e4b48b5d399d8e32e2d.setIcon(icon_94cdef44dcdf699323b489df61afcc94);
+            
+    
+            var marker_a7f476b3512f2496dc6715b48dd4ea72 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_6dfc3e033c8a42ff1300f0031d20b6e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5953102373700b0dc680b88a082d55a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_746e813228711f1e256d0ef8c499dfe7 = $(`<div id="html_746e813228711f1e256d0ef8c499dfe7" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 19.50 Lakhs NPR</div>`)[0];
+                popup_e5953102373700b0dc680b88a082d55a.setContent(html_746e813228711f1e256d0ef8c499dfe7);
+            
+        
+
+        marker_a7f476b3512f2496dc6715b48dd4ea72.bindPopup(popup_e5953102373700b0dc680b88a082d55a)
+        ;
+
+        
+    
+    
+                marker_a7f476b3512f2496dc6715b48dd4ea72.setIcon(icon_6dfc3e033c8a42ff1300f0031d20b6e5);
+            
+    
+            var marker_42aee22eac7fe2907084fa69476fef16 = L.marker(
+                [27.707, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_3df6710abe186e36496c56f7435e42a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f592e97d47cf8c91d176f544b6a6602 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_406e2a7865b812a02c011f4483c7012b = $(`<div id="html_406e2a7865b812a02c011f4483c7012b" style="width: 100.0%; height: 100.0%;">Banasthali: 250.00 Lakhs NPR</div>`)[0];
+                popup_6f592e97d47cf8c91d176f544b6a6602.setContent(html_406e2a7865b812a02c011f4483c7012b);
+            
+        
+
+        marker_42aee22eac7fe2907084fa69476fef16.bindPopup(popup_6f592e97d47cf8c91d176f544b6a6602)
+        ;
+
+        
+    
+    
+                marker_42aee22eac7fe2907084fa69476fef16.setIcon(icon_3df6710abe186e36496c56f7435e42a1);
+            
+    
+            var marker_1601e3649e129054554d8639f2bfb942 = L.marker(
+                [27.694, 85.281],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_3576966ba5bca068098b3ae5e22cc705 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df887df1879ffa16f974e2ab290a61cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8fb9fe13f0c7ef1d60b26b9ac48b591 = $(`<div id="html_a8fb9fe13f0c7ef1d60b26b9ac48b591" style="width: 100.0%; height: 100.0%;">Kalanki: 380.00 Lakhs NPR</div>`)[0];
+                popup_df887df1879ffa16f974e2ab290a61cf.setContent(html_a8fb9fe13f0c7ef1d60b26b9ac48b591);
+            
+        
+
+        marker_1601e3649e129054554d8639f2bfb942.bindPopup(popup_df887df1879ffa16f974e2ab290a61cf)
+        ;
+
+        
+    
+    
+                marker_1601e3649e129054554d8639f2bfb942.setIcon(icon_3576966ba5bca068098b3ae5e22cc705);
+            
+    
+            var marker_6418c8205d400c44d646a42163bb459a = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8bd6fd01664b3fb00341f599535fac1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_239ce0dfdf70a64d95e70262bd7c4682 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ebdebd62b1aae1711a0aab875457a4e = $(`<div id="html_2ebdebd62b1aae1711a0aab875457a4e" style="width: 100.0%; height: 100.0%;">Sukedhara: 345.00 Lakhs NPR</div>`)[0];
+                popup_239ce0dfdf70a64d95e70262bd7c4682.setContent(html_2ebdebd62b1aae1711a0aab875457a4e);
+            
+        
+
+        marker_6418c8205d400c44d646a42163bb459a.bindPopup(popup_239ce0dfdf70a64d95e70262bd7c4682)
+        ;
+
+        
+    
+    
+                marker_6418c8205d400c44d646a42163bb459a.setIcon(icon_8bd6fd01664b3fb00341f599535fac1e);
+            
+    
+            var marker_6e789eb0bcccb3a90cfa3d9d90fef53b = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_83e1c33fb0ac4919cb630c04ba7b6def = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1ad1deccb889c703f2b2befd5390d74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8573f625c9be55fe7088d9f11f1df6c2 = $(`<div id="html_8573f625c9be55fe7088d9f11f1df6c2" style="width: 100.0%; height: 100.0%;">Sukedhara: 1700.00 Lakhs NPR</div>`)[0];
+                popup_f1ad1deccb889c703f2b2befd5390d74.setContent(html_8573f625c9be55fe7088d9f11f1df6c2);
+            
+        
+
+        marker_6e789eb0bcccb3a90cfa3d9d90fef53b.bindPopup(popup_f1ad1deccb889c703f2b2befd5390d74)
+        ;
+
+        
+    
+    
+                marker_6e789eb0bcccb3a90cfa3d9d90fef53b.setIcon(icon_83e1c33fb0ac4919cb630c04ba7b6def);
+            
+    
+            var marker_75948bb106e2501f00d9d83fc63aba61 = L.marker(
+                [27.736, 85.333],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_7c69e83c85d64f30df8773bde440bf27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e40fe3df4c07f6c602f4d7710f2e3894 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f97e6045882fad7e4ad2f65120f1b37 = $(`<div id="html_2f97e6045882fad7e4ad2f65120f1b37" style="width: 100.0%; height: 100.0%;">Maharajgunj: 62.00 Lakhs NPR</div>`)[0];
+                popup_e40fe3df4c07f6c602f4d7710f2e3894.setContent(html_2f97e6045882fad7e4ad2f65120f1b37);
+            
+        
+
+        marker_75948bb106e2501f00d9d83fc63aba61.bindPopup(popup_e40fe3df4c07f6c602f4d7710f2e3894)
+        ;
+
+        
+    
+    
+                marker_75948bb106e2501f00d9d83fc63aba61.setIcon(icon_7c69e83c85d64f30df8773bde440bf27);
+            
+    
+            var marker_82d9b8c1559527efaa16a50cd89dd4e5 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_7537e3086f5e8b2c2bcd025f5650a1a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28cfd5d86af6498bf7aab4730bd4f1af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_669bba23c11051e20ed9118d227a9fb0 = $(`<div id="html_669bba23c11051e20ed9118d227a9fb0" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 19.00 Lakhs NPR</div>`)[0];
+                popup_28cfd5d86af6498bf7aab4730bd4f1af.setContent(html_669bba23c11051e20ed9118d227a9fb0);
+            
+        
+
+        marker_82d9b8c1559527efaa16a50cd89dd4e5.bindPopup(popup_28cfd5d86af6498bf7aab4730bd4f1af)
+        ;
+
+        
+    
+    
+                marker_82d9b8c1559527efaa16a50cd89dd4e5.setIcon(icon_7537e3086f5e8b2c2bcd025f5650a1a3);
+            
+    
+            var marker_0628dca63c1a3dbe60b19a9f6c7922b4 = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_5ccf5a98baf924229a2847df117d56c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3e05e6e94333a51cc2629cb06742228 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d3727b5871a7306f1cad1b8ff957e46 = $(`<div id="html_9d3727b5871a7306f1cad1b8ff957e46" style="width: 100.0%; height: 100.0%;">Pasikot: 175.00 Lakhs NPR</div>`)[0];
+                popup_e3e05e6e94333a51cc2629cb06742228.setContent(html_9d3727b5871a7306f1cad1b8ff957e46);
+            
+        
+
+        marker_0628dca63c1a3dbe60b19a9f6c7922b4.bindPopup(popup_e3e05e6e94333a51cc2629cb06742228)
+        ;
+
+        
+    
+    
+                marker_0628dca63c1a3dbe60b19a9f6c7922b4.setIcon(icon_5ccf5a98baf924229a2847df117d56c6);
+            
+    
+            var marker_e5e0a0d985e373efa887b5ae6f52ca79 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_0543392690304edaf2617de7b08efd6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa1569a38693b4373872b5bd8ddc44eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_119910f4190b738a946f3f7d918a1e8b = $(`<div id="html_119910f4190b738a946f3f7d918a1e8b" style="width: 100.0%; height: 100.0%;">Hattigauda: 375.00 Lakhs NPR</div>`)[0];
+                popup_fa1569a38693b4373872b5bd8ddc44eb.setContent(html_119910f4190b738a946f3f7d918a1e8b);
+            
+        
+
+        marker_e5e0a0d985e373efa887b5ae6f52ca79.bindPopup(popup_fa1569a38693b4373872b5bd8ddc44eb)
+        ;
+
+        
+    
+    
+                marker_e5e0a0d985e373efa887b5ae6f52ca79.setIcon(icon_0543392690304edaf2617de7b08efd6c);
+            
+    
+            var marker_35a703c2117ba1bf69e4b0d28691baf6 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_83da6a07bc9afd1e76a4c548bd8463c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d74652dc4145e2306251ae2d2908f31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd8929de8c1e64f74dcae32ac5a482a7 = $(`<div id="html_bd8929de8c1e64f74dcae32ac5a482a7" style="width: 100.0%; height: 100.0%;">Hattigauda: 180.00 Lakhs NPR</div>`)[0];
+                popup_6d74652dc4145e2306251ae2d2908f31.setContent(html_bd8929de8c1e64f74dcae32ac5a482a7);
+            
+        
+
+        marker_35a703c2117ba1bf69e4b0d28691baf6.bindPopup(popup_6d74652dc4145e2306251ae2d2908f31)
+        ;
+
+        
+    
+    
+                marker_35a703c2117ba1bf69e4b0d28691baf6.setIcon(icon_83da6a07bc9afd1e76a4c548bd8463c9);
+            
+    
+            var marker_2f237477f51035c3f1c776362d28a0f3 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_005865fb4c2623ece203094e4747da7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37f49cf52f2b40f47219fad31672bf94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc973fdddcaf883c95aae4bf7b1462ed = $(`<div id="html_fc973fdddcaf883c95aae4bf7b1462ed" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 138.00 Lakhs NPR</div>`)[0];
+                popup_37f49cf52f2b40f47219fad31672bf94.setContent(html_fc973fdddcaf883c95aae4bf7b1462ed);
+            
+        
+
+        marker_2f237477f51035c3f1c776362d28a0f3.bindPopup(popup_37f49cf52f2b40f47219fad31672bf94)
+        ;
+
+        
+    
+    
+                marker_2f237477f51035c3f1c776362d28a0f3.setIcon(icon_005865fb4c2623ece203094e4747da7e);
+            
+    
+            var marker_ee934dd466601bacd644755dcd4ce44b = L.marker(
+                [27.748, 85.298],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_81a1d7229b3e1417f81e110e53e9f081 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd5020c3db153a4086910a586dc4f9f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90f41f3e2ba7f4d6bd61829a96d37b96 = $(`<div id="html_90f41f3e2ba7f4d6bd61829a96d37b96" style="width: 100.0%; height: 100.0%;">Kavresthali: 13.50 Lakhs NPR</div>`)[0];
+                popup_bd5020c3db153a4086910a586dc4f9f5.setContent(html_90f41f3e2ba7f4d6bd61829a96d37b96);
+            
+        
+
+        marker_ee934dd466601bacd644755dcd4ce44b.bindPopup(popup_bd5020c3db153a4086910a586dc4f9f5)
+        ;
+
+        
+    
+    
+                marker_ee934dd466601bacd644755dcd4ce44b.setIcon(icon_81a1d7229b3e1417f81e110e53e9f081);
+            
+    
+            var marker_82cff0632359071bb0bf8f6afd80f857 = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_4e8ebc65fb471c905e1ab3c2ff1d181d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_914599a769e6048a4cf84632def0bc55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a18231a7dde0139933a885e85e7fe69 = $(`<div id="html_3a18231a7dde0139933a885e85e7fe69" style="width: 100.0%; height: 100.0%;">Golfutar: 290.00 Lakhs NPR</div>`)[0];
+                popup_914599a769e6048a4cf84632def0bc55.setContent(html_3a18231a7dde0139933a885e85e7fe69);
+            
+        
+
+        marker_82cff0632359071bb0bf8f6afd80f857.bindPopup(popup_914599a769e6048a4cf84632def0bc55)
+        ;
+
+        
+    
+    
+                marker_82cff0632359071bb0bf8f6afd80f857.setIcon(icon_4e8ebc65fb471c905e1ab3c2ff1d181d);
+            
+    
+            var marker_31a94ec98b644ba707e05ddb1a9a824a = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_9716d5573a5f009f2942bc410046a82a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c7d54eff7b4889943888db91b010057 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_527930cfc5e399faf638d2d32733f45d = $(`<div id="html_527930cfc5e399faf638d2d32733f45d" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 290.00 Lakhs NPR</div>`)[0];
+                popup_8c7d54eff7b4889943888db91b010057.setContent(html_527930cfc5e399faf638d2d32733f45d);
+            
+        
+
+        marker_31a94ec98b644ba707e05ddb1a9a824a.bindPopup(popup_8c7d54eff7b4889943888db91b010057)
+        ;
+
+        
+    
+    
+                marker_31a94ec98b644ba707e05ddb1a9a824a.setIcon(icon_9716d5573a5f009f2942bc410046a82a);
+            
+    
+            var marker_30db3ff1917ecccfcceb0b6a0521af6c = L.marker(
+                [27.737, 85.362],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_076c029eef77a58620234a69dda0966a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90d899c20ec9c49b020a669d5304a1b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec9a6a008df530fca6e25d01056ba87c = $(`<div id="html_ec9a6a008df530fca6e25d01056ba87c" style="width: 100.0%; height: 100.0%;">Kapan: 150.00 Lakhs NPR</div>`)[0];
+                popup_90d899c20ec9c49b020a669d5304a1b0.setContent(html_ec9a6a008df530fca6e25d01056ba87c);
+            
+        
+
+        marker_30db3ff1917ecccfcceb0b6a0521af6c.bindPopup(popup_90d899c20ec9c49b020a669d5304a1b0)
+        ;
+
+        
+    
+    
+                marker_30db3ff1917ecccfcceb0b6a0521af6c.setIcon(icon_076c029eef77a58620234a69dda0966a);
+            
+    
+            var marker_168cd094c2d1f106eb202f4e5f7244ea = L.marker(
+                [27.736, 85.333],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_94b64010f6c2d8c847052a659fcaddf3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6d1490f85f619fb348820bc084b813f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3406e5246261c3b03a4088b45243111a = $(`<div id="html_3406e5246261c3b03a4088b45243111a" style="width: 100.0%; height: 100.0%;">Maharajgunj: 700.00 Lakhs NPR</div>`)[0];
+                popup_c6d1490f85f619fb348820bc084b813f.setContent(html_3406e5246261c3b03a4088b45243111a);
+            
+        
+
+        marker_168cd094c2d1f106eb202f4e5f7244ea.bindPopup(popup_c6d1490f85f619fb348820bc084b813f)
+        ;
+
+        
+    
+    
+                marker_168cd094c2d1f106eb202f4e5f7244ea.setIcon(icon_94b64010f6c2d8c847052a659fcaddf3);
+            
+    
+            var marker_76a1c2976e49d6a009d73b14d09d8bd4 = L.marker(
+                [27.731, 85.312],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_56a86ffb034f3643377ed34c109017e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4839943c32e64085098cb98618abd85f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91dfd9bed7a085c890c8fa9ec38f54a1 = $(`<div id="html_91dfd9bed7a085c890c8fa9ec38f54a1" style="width: 100.0%; height: 100.0%;">Baniyatar: 165.00 Lakhs NPR</div>`)[0];
+                popup_4839943c32e64085098cb98618abd85f.setContent(html_91dfd9bed7a085c890c8fa9ec38f54a1);
+            
+        
+
+        marker_76a1c2976e49d6a009d73b14d09d8bd4.bindPopup(popup_4839943c32e64085098cb98618abd85f)
+        ;
+
+        
+    
+    
+                marker_76a1c2976e49d6a009d73b14d09d8bd4.setIcon(icon_56a86ffb034f3643377ed34c109017e3);
+            
+    
+            var marker_bb70eb3830beb58c98be245e68f06998 = L.marker(
+                [27.731, 85.312],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_fbda63ed1d106d97381a6ba87d312ad5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cc0b69d3e84e2532cb4f503d89bb6f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d860dbf5588206ce22733d45c9f3cb82 = $(`<div id="html_d860dbf5588206ce22733d45c9f3cb82" style="width: 100.0%; height: 100.0%;">Baniyatar: 320.00 Lakhs NPR</div>`)[0];
+                popup_4cc0b69d3e84e2532cb4f503d89bb6f3.setContent(html_d860dbf5588206ce22733d45c9f3cb82);
+            
+        
+
+        marker_bb70eb3830beb58c98be245e68f06998.bindPopup(popup_4cc0b69d3e84e2532cb4f503d89bb6f3)
+        ;
+
+        
+    
+    
+                marker_bb70eb3830beb58c98be245e68f06998.setIcon(icon_fbda63ed1d106d97381a6ba87d312ad5);
+            
+    
+            var marker_964a15d7ce7325219002b1ea0f7f7c03 = L.marker(
+                [27.731, 85.312],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_ce3189d8ab3294a473b59ced0f532e6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3db2f69c1b986269e86a1b2bdea709dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82f42309a320752ff711de99208109cf = $(`<div id="html_82f42309a320752ff711de99208109cf" style="width: 100.0%; height: 100.0%;">Baniyatar: 350.00 Lakhs NPR</div>`)[0];
+                popup_3db2f69c1b986269e86a1b2bdea709dc.setContent(html_82f42309a320752ff711de99208109cf);
+            
+        
+
+        marker_964a15d7ce7325219002b1ea0f7f7c03.bindPopup(popup_3db2f69c1b986269e86a1b2bdea709dc)
+        ;
+
+        
+    
+    
+                marker_964a15d7ce7325219002b1ea0f7f7c03.setIcon(icon_ce3189d8ab3294a473b59ced0f532e6c);
+            
+    
+            var marker_ee41bac1c5903a882f1984d679cf8d72 = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_a1a6e46902f258c5b8c9fe88b27849da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a527a3272679ded879fc26cd46feff1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f27e7ef0aab9f3559402bf817fa104a2 = $(`<div id="html_f27e7ef0aab9f3559402bf817fa104a2" style="width: 100.0%; height: 100.0%;">Sukedhara: 318.00 Lakhs NPR</div>`)[0];
+                popup_a527a3272679ded879fc26cd46feff1e.setContent(html_f27e7ef0aab9f3559402bf817fa104a2);
+            
+        
+
+        marker_ee41bac1c5903a882f1984d679cf8d72.bindPopup(popup_a527a3272679ded879fc26cd46feff1e)
+        ;
+
+        
+    
+    
+                marker_ee41bac1c5903a882f1984d679cf8d72.setIcon(icon_a1a6e46902f258c5b8c9fe88b27849da);
+            
+    
+            var marker_32678a0247e024dce11fadc93d64eeb4 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_ac9201f1d2b4e59552b65f9e6b0c2748 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cea93fbc0882b1275a346ac11b39131f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_581350adbbc1668ae4a53f4017e9eaff = $(`<div id="html_581350adbbc1668ae4a53f4017e9eaff" style="width: 100.0%; height: 100.0%;">Hattigauda: 25.00 Lakhs NPR</div>`)[0];
+                popup_cea93fbc0882b1275a346ac11b39131f.setContent(html_581350adbbc1668ae4a53f4017e9eaff);
+            
+        
+
+        marker_32678a0247e024dce11fadc93d64eeb4.bindPopup(popup_cea93fbc0882b1275a346ac11b39131f)
+        ;
+
+        
+    
+    
+                marker_32678a0247e024dce11fadc93d64eeb4.setIcon(icon_ac9201f1d2b4e59552b65f9e6b0c2748);
+            
+    
+            var marker_eeb2c5c762fa7333010f6fa0ceb694db = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_7ad34a1f8a207c74ad645a6cf378f0c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92618d9c0b8b83a75a8c981072266f50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_764128dee9bc90c211f5bdf6dc438eeb = $(`<div id="html_764128dee9bc90c211f5bdf6dc438eeb" style="width: 100.0%; height: 100.0%;">Sukedhara: 275.00 Lakhs NPR</div>`)[0];
+                popup_92618d9c0b8b83a75a8c981072266f50.setContent(html_764128dee9bc90c211f5bdf6dc438eeb);
+            
+        
+
+        marker_eeb2c5c762fa7333010f6fa0ceb694db.bindPopup(popup_92618d9c0b8b83a75a8c981072266f50)
+        ;
+
+        
+    
+    
+                marker_eeb2c5c762fa7333010f6fa0ceb694db.setIcon(icon_7ad34a1f8a207c74ad645a6cf378f0c8);
+            
+    
+            var marker_a6fa7d5bfd330c69782cea57ce999605 = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c8d65f1eb49aff6ceeab398f7aee6fc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2542612a33b17d712cdd7021104ce370 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0663781ab48abf7b112df0f840fb2800 = $(`<div id="html_0663781ab48abf7b112df0f840fb2800" style="width: 100.0%; height: 100.0%;">Sukedhara: 190.00 Lakhs NPR</div>`)[0];
+                popup_2542612a33b17d712cdd7021104ce370.setContent(html_0663781ab48abf7b112df0f840fb2800);
+            
+        
+
+        marker_a6fa7d5bfd330c69782cea57ce999605.bindPopup(popup_2542612a33b17d712cdd7021104ce370)
+        ;
+
+        
+    
+    
+                marker_a6fa7d5bfd330c69782cea57ce999605.setIcon(icon_c8d65f1eb49aff6ceeab398f7aee6fc1);
+            
+    
+            var marker_93fba5fcb139db6d33dac8dedbc9bebd = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_64f42d04907bb463f15fc365cc7cdcfb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08ddee27f1f45db4b1dc815931737b57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27c535f9cd7a8110635643bbb4b3f60c = $(`<div id="html_27c535f9cd7a8110635643bbb4b3f60c" style="width: 100.0%; height: 100.0%;">Hattigauda: 320.00 Lakhs NPR</div>`)[0];
+                popup_08ddee27f1f45db4b1dc815931737b57.setContent(html_27c535f9cd7a8110635643bbb4b3f60c);
+            
+        
+
+        marker_93fba5fcb139db6d33dac8dedbc9bebd.bindPopup(popup_08ddee27f1f45db4b1dc815931737b57)
+        ;
+
+        
+    
+    
+                marker_93fba5fcb139db6d33dac8dedbc9bebd.setIcon(icon_64f42d04907bb463f15fc365cc7cdcfb);
+            
+    
+            var marker_e8a34519321dba4ac5cc3f6fa2a1e994 = L.marker(
+                [27.708, 85.279],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_97f1fd182b29d195f7592d8206928584 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34ec97353ad7fb4ad79d4f9e587878ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90fb8ab7d7323a87bdb78bdf4815fc80 = $(`<div id="html_90fb8ab7d7323a87bdb78bdf4815fc80" style="width: 100.0%; height: 100.0%;">Sitapaila: 250.00 Lakhs NPR</div>`)[0];
+                popup_34ec97353ad7fb4ad79d4f9e587878ec.setContent(html_90fb8ab7d7323a87bdb78bdf4815fc80);
+            
+        
+
+        marker_e8a34519321dba4ac5cc3f6fa2a1e994.bindPopup(popup_34ec97353ad7fb4ad79d4f9e587878ec)
+        ;
+
+        
+    
+    
+                marker_e8a34519321dba4ac5cc3f6fa2a1e994.setIcon(icon_97f1fd182b29d195f7592d8206928584);
+            
+    
+            var marker_559969df31b01a4a0ee9ae3661ddd909 = L.marker(
+                [27.715, 85.291],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e9d5dc9e4aac3da5382d2af2ff5aa67c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18bd24c86ac8db02bc8b247e2f7ebc8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3f76633798f520b81c4658a458f1413 = $(`<div id="html_d3f76633798f520b81c4658a458f1413" style="width: 100.0%; height: 100.0%;">Swayambhu: 8.50 Lakhs NPR</div>`)[0];
+                popup_18bd24c86ac8db02bc8b247e2f7ebc8b.setContent(html_d3f76633798f520b81c4658a458f1413);
+            
+        
+
+        marker_559969df31b01a4a0ee9ae3661ddd909.bindPopup(popup_18bd24c86ac8db02bc8b247e2f7ebc8b)
+        ;
+
+        
+    
+    
+                marker_559969df31b01a4a0ee9ae3661ddd909.setIcon(icon_e9d5dc9e4aac3da5382d2af2ff5aa67c);
+            
+    
+            var marker_76e44e9c99a97f14973717ffc5be1fc9 = L.marker(
+                [27.737, 85.362],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_7aa729d79265553ee770c9de258157ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92df1ea7815fc3758a1943fc8b3ad836 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa0edde184fd6719bff5d034f6981b4b = $(`<div id="html_aa0edde184fd6719bff5d034f6981b4b" style="width: 100.0%; height: 100.0%;">Kapan: 128.00 Lakhs NPR</div>`)[0];
+                popup_92df1ea7815fc3758a1943fc8b3ad836.setContent(html_aa0edde184fd6719bff5d034f6981b4b);
+            
+        
+
+        marker_76e44e9c99a97f14973717ffc5be1fc9.bindPopup(popup_92df1ea7815fc3758a1943fc8b3ad836)
+        ;
+
+        
+    
+    
+                marker_76e44e9c99a97f14973717ffc5be1fc9.setIcon(icon_7aa729d79265553ee770c9de258157ca);
+            
+    
+            var marker_560c44bc80387277b9899a5c0699e14f = L.marker(
+                [27.737, 85.311],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_a694b079a4edc9c33b4f25d24407d458 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7c4f7ec7547f69ee96b14a7fed0dc0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1428a85e1ebc593d0b7465410eb3f05d = $(`<div id="html_1428a85e1ebc593d0b7465410eb3f05d" style="width: 100.0%; height: 100.0%;">Manamaiju: 250.00 Lakhs NPR</div>`)[0];
+                popup_d7c4f7ec7547f69ee96b14a7fed0dc0d.setContent(html_1428a85e1ebc593d0b7465410eb3f05d);
+            
+        
+
+        marker_560c44bc80387277b9899a5c0699e14f.bindPopup(popup_d7c4f7ec7547f69ee96b14a7fed0dc0d)
+        ;
+
+        
+    
+    
+                marker_560c44bc80387277b9899a5c0699e14f.setIcon(icon_a694b079a4edc9c33b4f25d24407d458);
+            
+    
+            var marker_e9dca7d2b0dfce4bfb1faa977609dfd5 = L.marker(
+                [27.744, 85.337],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_4bd8f60bb42d873423143062513a763d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_baaaeac9d87b445712490411150df6f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0d9a982cf6435365b737fb36e070c72 = $(`<div id="html_b0d9a982cf6435365b737fb36e070c72" style="width: 100.0%; height: 100.0%;">Dhapasi: 170.00 Lakhs NPR</div>`)[0];
+                popup_baaaeac9d87b445712490411150df6f2.setContent(html_b0d9a982cf6435365b737fb36e070c72);
+            
+        
+
+        marker_e9dca7d2b0dfce4bfb1faa977609dfd5.bindPopup(popup_baaaeac9d87b445712490411150df6f2)
+        ;
+
+        
+    
+    
+                marker_e9dca7d2b0dfce4bfb1faa977609dfd5.setIcon(icon_4bd8f60bb42d873423143062513a763d);
+            
+    
+            var marker_6f4c8f9aa0a6352bdf728ca321ef618b = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_a7b4c0e28156b4bad638ebb74584cbad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7cf39f212a81cede9bd48f5faedf7b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c41aad63fd4b2b294313452c4a2c3081 = $(`<div id="html_c41aad63fd4b2b294313452c4a2c3081" style="width: 100.0%; height: 100.0%;">Pasikot: 25.00 Lakhs NPR</div>`)[0];
+                popup_f7cf39f212a81cede9bd48f5faedf7b1.setContent(html_c41aad63fd4b2b294313452c4a2c3081);
+            
+        
+
+        marker_6f4c8f9aa0a6352bdf728ca321ef618b.bindPopup(popup_f7cf39f212a81cede9bd48f5faedf7b1)
+        ;
+
+        
+    
+    
+                marker_6f4c8f9aa0a6352bdf728ca321ef618b.setIcon(icon_a7b4c0e28156b4bad638ebb74584cbad);
+            
+    
+            var marker_8f8410bf8fdcdf8f810b8ccdb54aa15d = L.marker(
+                [27.716, 85.336],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_d531e8347b7adf4f8aa60b7582e53054 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c224dad43eb7f9bdc5b8be8e49ba76dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c0c7719c8dd5799ba6db6958f743d80 = $(`<div id="html_2c0c7719c8dd5799ba6db6958f743d80" style="width: 100.0%; height: 100.0%;">Maligaon: 650.00 Lakhs NPR</div>`)[0];
+                popup_c224dad43eb7f9bdc5b8be8e49ba76dc.setContent(html_2c0c7719c8dd5799ba6db6958f743d80);
+            
+        
+
+        marker_8f8410bf8fdcdf8f810b8ccdb54aa15d.bindPopup(popup_c224dad43eb7f9bdc5b8be8e49ba76dc)
+        ;
+
+        
+    
+    
+                marker_8f8410bf8fdcdf8f810b8ccdb54aa15d.setIcon(icon_d531e8347b7adf4f8aa60b7582e53054);
+            
+    
+            var marker_7c2f1c6845aaa0497365d6f555b6e13f = L.marker(
+                [27.727, 85.287],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_9639c4ec0b64b1912756cb183b79fec5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca2048281395142ea713c5500bf76bfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a11ecb79befa935c2c55764429b85455 = $(`<div id="html_a11ecb79befa935c2c55764429b85455" style="width: 100.0%; height: 100.0%;">Raniban: 335.00 Lakhs NPR</div>`)[0];
+                popup_ca2048281395142ea713c5500bf76bfa.setContent(html_a11ecb79befa935c2c55764429b85455);
+            
+        
+
+        marker_7c2f1c6845aaa0497365d6f555b6e13f.bindPopup(popup_ca2048281395142ea713c5500bf76bfa)
+        ;
+
+        
+    
+    
+                marker_7c2f1c6845aaa0497365d6f555b6e13f.setIcon(icon_9639c4ec0b64b1912756cb183b79fec5);
+            
+    
+            var marker_64d7dc8257f72abd5d022252d50fc7cf = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_caff91731444fdb3386be5b213093d36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab44b0d14eee3b5f9788a22e6c4836b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04a042431fa2aee2d63204457b9693bd = $(`<div id="html_04a042431fa2aee2d63204457b9693bd" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 250.00 Lakhs NPR</div>`)[0];
+                popup_ab44b0d14eee3b5f9788a22e6c4836b2.setContent(html_04a042431fa2aee2d63204457b9693bd);
+            
+        
+
+        marker_64d7dc8257f72abd5d022252d50fc7cf.bindPopup(popup_ab44b0d14eee3b5f9788a22e6c4836b2)
+        ;
+
+        
+    
+    
+                marker_64d7dc8257f72abd5d022252d50fc7cf.setIcon(icon_caff91731444fdb3386be5b213093d36);
+            
+    
+            var marker_7fde2b81bafcd1ce510082a48806b453 = L.marker(
+                [27.693, 85.374],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_da32453d8d758392b8ac778e4c5fef80 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a6525eceb757313b2902cc38a42f790 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40d14c1bf91e8fb4a1fe500275de223c = $(`<div id="html_40d14c1bf91e8fb4a1fe500275de223c" style="width: 100.0%; height: 100.0%;">Pepsicola: 5.00 Lakhs NPR</div>`)[0];
+                popup_5a6525eceb757313b2902cc38a42f790.setContent(html_40d14c1bf91e8fb4a1fe500275de223c);
+            
+        
+
+        marker_7fde2b81bafcd1ce510082a48806b453.bindPopup(popup_5a6525eceb757313b2902cc38a42f790)
+        ;
+
+        
+    
+    
+                marker_7fde2b81bafcd1ce510082a48806b453.setIcon(icon_da32453d8d758392b8ac778e4c5fef80);
+            
+    
+            var marker_e27d8b80f3ded59e67ac66553b33458c = L.marker(
+                [27.708, 85.349],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_bc78d6332cf05df81a4c4f207864d36b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3aa3e1a39b26da20748f457b6005c8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ead832278167e8a0bb09523d36fd9c0e = $(`<div id="html_ead832278167e8a0bb09523d36fd9c0e" style="width: 100.0%; height: 100.0%;">Narephate: 34.00 Lakhs NPR</div>`)[0];
+                popup_c3aa3e1a39b26da20748f457b6005c8b.setContent(html_ead832278167e8a0bb09523d36fd9c0e);
+            
+        
+
+        marker_e27d8b80f3ded59e67ac66553b33458c.bindPopup(popup_c3aa3e1a39b26da20748f457b6005c8b)
+        ;
+
+        
+    
+    
+                marker_e27d8b80f3ded59e67ac66553b33458c.setIcon(icon_bc78d6332cf05df81a4c4f207864d36b);
+            
+    
+            var marker_cfd3b2fcf2222c18de2d44f62b2f12f0 = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_21ca7d2bb6e5ab3c5ea9e792130be32b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc074764c3404a2954f2b0ac8a485781 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_811e227c485081364fd5755087fe2d25 = $(`<div id="html_811e227c485081364fd5755087fe2d25" style="width: 100.0%; height: 100.0%;">Pasikot: 24.00 Lakhs NPR</div>`)[0];
+                popup_fc074764c3404a2954f2b0ac8a485781.setContent(html_811e227c485081364fd5755087fe2d25);
+            
+        
+
+        marker_cfd3b2fcf2222c18de2d44f62b2f12f0.bindPopup(popup_fc074764c3404a2954f2b0ac8a485781)
+        ;
+
+        
+    
+    
+                marker_cfd3b2fcf2222c18de2d44f62b2f12f0.setIcon(icon_21ca7d2bb6e5ab3c5ea9e792130be32b);
+            
+    
+            var marker_84826c1cf360d5097764bc3458d7eb64 = L.marker(
+                [27.727, 85.334],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_e2843fd996e6ef677c10b69e05559520 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aac08a9aea712f5df7879a45c2f40c97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8efa88866f263f9616d00ee3575866c = $(`<div id="html_c8efa88866f263f9616d00ee3575866c" style="width: 100.0%; height: 100.0%;">Baluwatar: 250.00 Lakhs NPR</div>`)[0];
+                popup_aac08a9aea712f5df7879a45c2f40c97.setContent(html_c8efa88866f263f9616d00ee3575866c);
+            
+        
+
+        marker_84826c1cf360d5097764bc3458d7eb64.bindPopup(popup_aac08a9aea712f5df7879a45c2f40c97)
+        ;
+
+        
+    
+    
+                marker_84826c1cf360d5097764bc3458d7eb64.setIcon(icon_e2843fd996e6ef677c10b69e05559520);
+            
+    
+            var marker_521bffa83f052c07d40b75db21242ce3 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_02a6cde1d0edb72da74614a973282f9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36a83b64196438e2a9c1459222e6cbf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_208644fe44fc0c6543f42e6ea71ac58d = $(`<div id="html_208644fe44fc0c6543f42e6ea71ac58d" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 27.00 Lakhs NPR</div>`)[0];
+                popup_36a83b64196438e2a9c1459222e6cbf3.setContent(html_208644fe44fc0c6543f42e6ea71ac58d);
+            
+        
+
+        marker_521bffa83f052c07d40b75db21242ce3.bindPopup(popup_36a83b64196438e2a9c1459222e6cbf3)
+        ;
+
+        
+    
+    
+                marker_521bffa83f052c07d40b75db21242ce3.setIcon(icon_02a6cde1d0edb72da74614a973282f9a);
+            
+    
+            var marker_69440d64bf2755219ba353c1e99c9446 = L.marker(
+                [27.736, 85.333],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_4ffb9405daf874af58ffae1b5c02b484 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8095a9e67d916f15dbcc7e93fa7fabd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b8199ced48ba681bad8aef0f7d71522 = $(`<div id="html_4b8199ced48ba681bad8aef0f7d71522" style="width: 100.0%; height: 100.0%;">Maharajgunj: 365.00 Lakhs NPR</div>`)[0];
+                popup_8095a9e67d916f15dbcc7e93fa7fabd0.setContent(html_4b8199ced48ba681bad8aef0f7d71522);
+            
+        
+
+        marker_69440d64bf2755219ba353c1e99c9446.bindPopup(popup_8095a9e67d916f15dbcc7e93fa7fabd0)
+        ;
+
+        
+    
+    
+                marker_69440d64bf2755219ba353c1e99c9446.setIcon(icon_4ffb9405daf874af58ffae1b5c02b484);
+            
+    
+            var marker_0db1e2a5613b49de0f800f7cf5ecdd21 = L.marker(
+                [27.76, 85.325],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_2f3c6fadcb6c50574ed28aa5ccfdb483 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5aff6b66b27e1a603e3fa97f6748df80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a64af8592725586584ab455c7810954 = $(`<div id="html_8a64af8592725586584ab455c7810954" style="width: 100.0%; height: 100.0%;">Tokha: 130.00 Lakhs NPR</div>`)[0];
+                popup_5aff6b66b27e1a603e3fa97f6748df80.setContent(html_8a64af8592725586584ab455c7810954);
+            
+        
+
+        marker_0db1e2a5613b49de0f800f7cf5ecdd21.bindPopup(popup_5aff6b66b27e1a603e3fa97f6748df80)
+        ;
+
+        
+    
+    
+                marker_0db1e2a5613b49de0f800f7cf5ecdd21.setIcon(icon_2f3c6fadcb6c50574ed28aa5ccfdb483);
+            
+    
+            var marker_29e45d04111f7ed0bb99a45bd754cf1c = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_9fce61389e580e10cbe3c07a28616edc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_691512a72c99c0aef80c6da28acfb84c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c44240cb8b7bb33b59e47473bc47f1e = $(`<div id="html_4c44240cb8b7bb33b59e47473bc47f1e" style="width: 100.0%; height: 100.0%;">Goldhunga: 18.00 Lakhs NPR</div>`)[0];
+                popup_691512a72c99c0aef80c6da28acfb84c.setContent(html_4c44240cb8b7bb33b59e47473bc47f1e);
+            
+        
+
+        marker_29e45d04111f7ed0bb99a45bd754cf1c.bindPopup(popup_691512a72c99c0aef80c6da28acfb84c)
+        ;
+
+        
+    
+    
+                marker_29e45d04111f7ed0bb99a45bd754cf1c.setIcon(icon_9fce61389e580e10cbe3c07a28616edc);
+            
+    
+            var marker_cb17303f01677c281f4c0c9dc2f24dc8 = L.marker(
+                [27.744, 85.294],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8087914c9ddb72530f66a0f38468a2b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b512994e99c0194465d90324e01eae2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b960b358059f145ba90f4bfef76e5f88 = $(`<div id="html_b960b358059f145ba90f4bfef76e5f88" style="width: 100.0%; height: 100.0%;">Goldhunga: 16.00 Lakhs NPR</div>`)[0];
+                popup_b512994e99c0194465d90324e01eae2d.setContent(html_b960b358059f145ba90f4bfef76e5f88);
+            
+        
+
+        marker_cb17303f01677c281f4c0c9dc2f24dc8.bindPopup(popup_b512994e99c0194465d90324e01eae2d)
+        ;
+
+        
+    
+    
+                marker_cb17303f01677c281f4c0c9dc2f24dc8.setIcon(icon_8087914c9ddb72530f66a0f38468a2b3);
+            
+    
+            var marker_c6b0c598b4c636ad6ba4739f9b1793d8 = L.marker(
+                [27.737, 85.362],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c614e828e07916e46df412c008ea5add = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b4d78bb2ff9930ec0e6bfe9ec6e9421 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6e4293d56f5b1b3ff1f7060f6a472b8 = $(`<div id="html_c6e4293d56f5b1b3ff1f7060f6a472b8" style="width: 100.0%; height: 100.0%;">Kapan: 200.00 Lakhs NPR</div>`)[0];
+                popup_4b4d78bb2ff9930ec0e6bfe9ec6e9421.setContent(html_c6e4293d56f5b1b3ff1f7060f6a472b8);
+            
+        
+
+        marker_c6b0c598b4c636ad6ba4739f9b1793d8.bindPopup(popup_4b4d78bb2ff9930ec0e6bfe9ec6e9421)
+        ;
+
+        
+    
+    
+                marker_c6b0c598b4c636ad6ba4739f9b1793d8.setIcon(icon_c614e828e07916e46df412c008ea5add);
+            
+    
+            var marker_b85cf288aad58b6106c4f99d87e9fd6e = L.marker(
+                [27.766, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_4388f8c383acd1495a638a078945fab2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9d1aea547921af0b7394b1b7d873340 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6da87742a427314486597aaa4e5bede0 = $(`<div id="html_6da87742a427314486597aaa4e5bede0" style="width: 100.0%; height: 100.0%;">Pasikot: 175.00 Lakhs NPR</div>`)[0];
+                popup_b9d1aea547921af0b7394b1b7d873340.setContent(html_6da87742a427314486597aaa4e5bede0);
+            
+        
+
+        marker_b85cf288aad58b6106c4f99d87e9fd6e.bindPopup(popup_b9d1aea547921af0b7394b1b7d873340)
+        ;
+
+        
+    
+    
+                marker_b85cf288aad58b6106c4f99d87e9fd6e.setIcon(icon_4388f8c383acd1495a638a078945fab2);
+            
+    
+            var marker_e476d588a1698bdff6c0f5d2608cc3d2 = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_feb9bc599771bea708db1e901ba945be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8548371bf64727bf456181aee12e0fb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5c293bdd772650e6aea107e4cede2a0 = $(`<div id="html_a5c293bdd772650e6aea107e4cede2a0" style="width: 100.0%; height: 100.0%;">Golfutar: 599.00 Lakhs NPR</div>`)[0];
+                popup_8548371bf64727bf456181aee12e0fb4.setContent(html_a5c293bdd772650e6aea107e4cede2a0);
+            
+        
+
+        marker_e476d588a1698bdff6c0f5d2608cc3d2.bindPopup(popup_8548371bf64727bf456181aee12e0fb4)
+        ;
+
+        
+    
+    
+                marker_e476d588a1698bdff6c0f5d2608cc3d2.setIcon(icon_feb9bc599771bea708db1e901ba945be);
+            
+    
+            var marker_7ed189e7ee86d18895c56d4923f94d83 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_52dfc627acb69bffb77f2fbb04156505 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c50faebfed379def30b3c2a45b7b5575 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebab3a6eab7ea27b4ac506a2252eec5e = $(`<div id="html_ebab3a6eab7ea27b4ac506a2252eec5e" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 299.00 Lakhs NPR</div>`)[0];
+                popup_c50faebfed379def30b3c2a45b7b5575.setContent(html_ebab3a6eab7ea27b4ac506a2252eec5e);
+            
+        
+
+        marker_7ed189e7ee86d18895c56d4923f94d83.bindPopup(popup_c50faebfed379def30b3c2a45b7b5575)
+        ;
+
+        
+    
+    
+                marker_7ed189e7ee86d18895c56d4923f94d83.setIcon(icon_52dfc627acb69bffb77f2fbb04156505);
+            
+    
+            var marker_149634b7ebd3227eedaea9d7f097c33a = L.marker(
+                [27.727, 85.334],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_fe672c9706a9136cd15893d35e6dc58e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df0e8c92cf657b7c4d450b4cd8c93ca3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_839605d642ec1f20b202a81ff681d95b = $(`<div id="html_839605d642ec1f20b202a81ff681d95b" style="width: 100.0%; height: 100.0%;">Baluwatar: 45.00 Lakhs NPR</div>`)[0];
+                popup_df0e8c92cf657b7c4d450b4cd8c93ca3.setContent(html_839605d642ec1f20b202a81ff681d95b);
+            
+        
+
+        marker_149634b7ebd3227eedaea9d7f097c33a.bindPopup(popup_df0e8c92cf657b7c4d450b4cd8c93ca3)
+        ;
+
+        
+    
+    
+                marker_149634b7ebd3227eedaea9d7f097c33a.setIcon(icon_fe672c9706a9136cd15893d35e6dc58e);
+            
+    
+            var marker_47e685c321f5b2bc824098ff7038029e = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_6e70bad4fd41d09b113f760ad30f9861 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_392eb9647d78c89b1f6da104b97927e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_577a830afb5bc730dd158195b5b53114 = $(`<div id="html_577a830afb5bc730dd158195b5b53114" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 290.00 Lakhs NPR</div>`)[0];
+                popup_392eb9647d78c89b1f6da104b97927e2.setContent(html_577a830afb5bc730dd158195b5b53114);
+            
+        
+
+        marker_47e685c321f5b2bc824098ff7038029e.bindPopup(popup_392eb9647d78c89b1f6da104b97927e2)
+        ;
+
+        
+    
+    
+                marker_47e685c321f5b2bc824098ff7038029e.setIcon(icon_6e70bad4fd41d09b113f760ad30f9861);
+            
+    
+            var marker_953e9f18a201fdbf1e1c53e1154ccc1f = L.marker(
+                [27.694, 85.281],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_9487fb36468d2d72fcc8a1263fdf8b72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6392e8c09ea5a9d94c15546216327aff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc4c0b794888626f075c2fb9ec18e76e = $(`<div id="html_dc4c0b794888626f075c2fb9ec18e76e" style="width: 100.0%; height: 100.0%;">Kalanki: 135.00 Lakhs NPR</div>`)[0];
+                popup_6392e8c09ea5a9d94c15546216327aff.setContent(html_dc4c0b794888626f075c2fb9ec18e76e);
+            
+        
+
+        marker_953e9f18a201fdbf1e1c53e1154ccc1f.bindPopup(popup_6392e8c09ea5a9d94c15546216327aff)
+        ;
+
+        
+    
+    
+                marker_953e9f18a201fdbf1e1c53e1154ccc1f.setIcon(icon_9487fb36468d2d72fcc8a1263fdf8b72);
+            
+    
+            var marker_327af5dc0810fd8f59a6787c228d4dd8 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_5ad740f891baf7bd54d983e5cc8277df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d554b0f5be335b641d90423495d861d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddcecc41c6e2afd5b2dfae10082642ad = $(`<div id="html_ddcecc41c6e2afd5b2dfae10082642ad" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 228.00 Lakhs NPR</div>`)[0];
+                popup_d554b0f5be335b641d90423495d861d6.setContent(html_ddcecc41c6e2afd5b2dfae10082642ad);
+            
+        
+
+        marker_327af5dc0810fd8f59a6787c228d4dd8.bindPopup(popup_d554b0f5be335b641d90423495d861d6)
+        ;
+
+        
+    
+    
+                marker_327af5dc0810fd8f59a6787c228d4dd8.setIcon(icon_5ad740f891baf7bd54d983e5cc8277df);
+            
+    
+            var marker_8e623727d5da8cd7e7dbb78ddddc4a73 = L.marker(
+                [27.736, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_ad4bc752f968613959f7eefc64fa851e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8dc89c2f57aeed1bdb7e233c6719c65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80b872a31c4194798b8db6b7dfaa76f2 = $(`<div id="html_80b872a31c4194798b8db6b7dfaa76f2" style="width: 100.0%; height: 100.0%;">Mandikatar: 225.00 Lakhs NPR</div>`)[0];
+                popup_b8dc89c2f57aeed1bdb7e233c6719c65.setContent(html_80b872a31c4194798b8db6b7dfaa76f2);
+            
+        
+
+        marker_8e623727d5da8cd7e7dbb78ddddc4a73.bindPopup(popup_b8dc89c2f57aeed1bdb7e233c6719c65)
+        ;
+
+        
+    
+    
+                marker_8e623727d5da8cd7e7dbb78ddddc4a73.setIcon(icon_ad4bc752f968613959f7eefc64fa851e);
+            
+    
+            var marker_ce6cd642233f692a36870fab0240c6c2 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_fd71d6c79cb0096b870f5d96b493af09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7867801b6819fc1867087418c8151f63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5dc0990f9c7721b83052f40840da212 = $(`<div id="html_e5dc0990f9c7721b83052f40840da212" style="width: 100.0%; height: 100.0%;">Hattigauda: 300.00 Lakhs NPR</div>`)[0];
+                popup_7867801b6819fc1867087418c8151f63.setContent(html_e5dc0990f9c7721b83052f40840da212);
+            
+        
+
+        marker_ce6cd642233f692a36870fab0240c6c2.bindPopup(popup_7867801b6819fc1867087418c8151f63)
+        ;
+
+        
+    
+    
+                marker_ce6cd642233f692a36870fab0240c6c2.setIcon(icon_fd71d6c79cb0096b870f5d96b493af09);
+            
+    
+            var marker_f6ecee92bdbb454051ffb3dff98ad56f = L.marker(
+                [27.708, 85.279],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c5cca8bb1c830674759a478f9cb604b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2784e6a01e8a4aff10e406379d6ef63f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0a2df8a0360cbd26e0cade64fee3869 = $(`<div id="html_a0a2df8a0360cbd26e0cade64fee3869" style="width: 100.0%; height: 100.0%;">Sitapaila: 150.00 Lakhs NPR</div>`)[0];
+                popup_2784e6a01e8a4aff10e406379d6ef63f.setContent(html_a0a2df8a0360cbd26e0cade64fee3869);
+            
+        
+
+        marker_f6ecee92bdbb454051ffb3dff98ad56f.bindPopup(popup_2784e6a01e8a4aff10e406379d6ef63f)
+        ;
+
+        
+    
+    
+                marker_f6ecee92bdbb454051ffb3dff98ad56f.setIcon(icon_c5cca8bb1c830674759a478f9cb604b1);
+            
+    
+            var marker_7eacd339d1d8f5ed0cae5755860f61c7 = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_a5276ba2faa557f4c66a919e6ea59493 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9367cc39334e1c5098ce709ef8e7b4eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_022ebc53cbb2638322ecc735ba906f12 = $(`<div id="html_022ebc53cbb2638322ecc735ba906f12" style="width: 100.0%; height: 100.0%;">Sukedhara: 330.00 Lakhs NPR</div>`)[0];
+                popup_9367cc39334e1c5098ce709ef8e7b4eb.setContent(html_022ebc53cbb2638322ecc735ba906f12);
+            
+        
+
+        marker_7eacd339d1d8f5ed0cae5755860f61c7.bindPopup(popup_9367cc39334e1c5098ce709ef8e7b4eb)
+        ;
+
+        
+    
+    
+                marker_7eacd339d1d8f5ed0cae5755860f61c7.setIcon(icon_a5276ba2faa557f4c66a919e6ea59493);
+            
+    
+            var marker_68e444e7011e4dd90a839e93cbfb78be = L.marker(
+                [27.752, 85.356],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_c75b6e7682ee7720faf79096bd517ba4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e052446c9f692a92ed30bd0041d4a59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cf015fd3fa093029e4ba3e5d6c26c7a = $(`<div id="html_9cf015fd3fa093029e4ba3e5d6c26c7a" style="width: 100.0%; height: 100.0%;">Golfutar: 195.00 Lakhs NPR</div>`)[0];
+                popup_2e052446c9f692a92ed30bd0041d4a59.setContent(html_9cf015fd3fa093029e4ba3e5d6c26c7a);
+            
+        
+
+        marker_68e444e7011e4dd90a839e93cbfb78be.bindPopup(popup_2e052446c9f692a92ed30bd0041d4a59)
+        ;
+
+        
+    
+    
+                marker_68e444e7011e4dd90a839e93cbfb78be.setIcon(icon_c75b6e7682ee7720faf79096bd517ba4);
+            
+    
+            var marker_fc2769423a98fab1e210f51059e8af34 = L.marker(
+                [27.708, 85.279],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_b3d83837e35fcd1de4cac35ae21c1da7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_065e6d273f7a69fe5c6d1210f5253076 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_686c30155f238f31c5738f44683a2236 = $(`<div id="html_686c30155f238f31c5738f44683a2236" style="width: 100.0%; height: 100.0%;">Sitapaila: 450.00 Lakhs NPR</div>`)[0];
+                popup_065e6d273f7a69fe5c6d1210f5253076.setContent(html_686c30155f238f31c5738f44683a2236);
+            
+        
+
+        marker_fc2769423a98fab1e210f51059e8af34.bindPopup(popup_065e6d273f7a69fe5c6d1210f5253076)
+        ;
+
+        
+    
+    
+                marker_fc2769423a98fab1e210f51059e8af34.setIcon(icon_b3d83837e35fcd1de4cac35ae21c1da7);
+            
+    
+            var marker_6ee7310a6fc3a54660cfba3a0ce6540e = L.marker(
+                [27.737, 85.339],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_abf5dc0c871b795cbb4f64d38d4e68a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81de18fcb5473f1a4c1921e58f5a1657 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0af7b569521c44458b62003d5de0e6bf = $(`<div id="html_0af7b569521c44458b62003d5de0e6bf" style="width: 100.0%; height: 100.0%;">Sukedhara: 880.00 Lakhs NPR</div>`)[0];
+                popup_81de18fcb5473f1a4c1921e58f5a1657.setContent(html_0af7b569521c44458b62003d5de0e6bf);
+            
+        
+
+        marker_6ee7310a6fc3a54660cfba3a0ce6540e.bindPopup(popup_81de18fcb5473f1a4c1921e58f5a1657)
+        ;
+
+        
+    
+    
+                marker_6ee7310a6fc3a54660cfba3a0ce6540e.setIcon(icon_abf5dc0c871b795cbb4f64d38d4e68a0);
+            
+    
+            var marker_e8ce2c2f6e72ae77c5535092aba3eeeb = L.marker(
+                [27.716, 85.336],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_8651f957dc071b0028116e6d7e19182a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb4a2b10583232306b508fc5debc52fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0838fc37f4c9ed03b868016de97a719e = $(`<div id="html_0838fc37f4c9ed03b868016de97a719e" style="width: 100.0%; height: 100.0%;">Maligaon: 650.00 Lakhs NPR</div>`)[0];
+                popup_eb4a2b10583232306b508fc5debc52fd.setContent(html_0838fc37f4c9ed03b868016de97a719e);
+            
+        
+
+        marker_e8ce2c2f6e72ae77c5535092aba3eeeb.bindPopup(popup_eb4a2b10583232306b508fc5debc52fd)
+        ;
+
+        
+    
+    
+                marker_e8ce2c2f6e72ae77c5535092aba3eeeb.setIcon(icon_8651f957dc071b0028116e6d7e19182a);
+            
+    
+            var marker_ecb2fd36e76f8e5a31faa746b4ab8f1e = L.marker(
+                [27.701, 85.271],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_2672d3c3eedf4d26f93ccd36da6e8d3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41dae82be5e09172bf0679d2ef3b3b96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_715727a66d441af5e1c555281e400f1f = $(`<div id="html_715727a66d441af5e1c555281e400f1f" style="width: 100.0%; height: 100.0%;">Syuchatar: 200.00 Lakhs NPR</div>`)[0];
+                popup_41dae82be5e09172bf0679d2ef3b3b96.setContent(html_715727a66d441af5e1c555281e400f1f);
+            
+        
+
+        marker_ecb2fd36e76f8e5a31faa746b4ab8f1e.bindPopup(popup_41dae82be5e09172bf0679d2ef3b3b96)
+        ;
+
+        
+    
+    
+                marker_ecb2fd36e76f8e5a31faa746b4ab8f1e.setIcon(icon_2672d3c3eedf4d26f93ccd36da6e8d3d);
+            
+    
+            var marker_0813c22bc8df17da0347a7896e3fea5e = L.marker(
+                [27.694, 85.281],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_d16400ab2f099174af6e2e7b6487195c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_919ec17ff9b9d8de28888ecb9a6ddb94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc7babded506384876e1fd35ac163b57 = $(`<div id="html_cc7babded506384876e1fd35ac163b57" style="width: 100.0%; height: 100.0%;">Kalanki: 27.00 Lakhs NPR</div>`)[0];
+                popup_919ec17ff9b9d8de28888ecb9a6ddb94.setContent(html_cc7babded506384876e1fd35ac163b57);
+            
+        
+
+        marker_0813c22bc8df17da0347a7896e3fea5e.bindPopup(popup_919ec17ff9b9d8de28888ecb9a6ddb94)
+        ;
+
+        
+    
+    
+                marker_0813c22bc8df17da0347a7896e3fea5e.setIcon(icon_d16400ab2f099174af6e2e7b6487195c);
+            
+    
+            var marker_f4b119644e9482ece63290e633e276dd = L.marker(
+                [27.694, 85.281],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_ca7f27da1ebbd52cf525ca66486b19ba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8db4fe57b4c0185bb002b7e090ef3fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2901a21c29c2c9ec7d593a59f694128 = $(`<div id="html_a2901a21c29c2c9ec7d593a59f694128" style="width: 100.0%; height: 100.0%;">Kalanki: 380.00 Lakhs NPR</div>`)[0];
+                popup_e8db4fe57b4c0185bb002b7e090ef3fe.setContent(html_a2901a21c29c2c9ec7d593a59f694128);
+            
+        
+
+        marker_f4b119644e9482ece63290e633e276dd.bindPopup(popup_e8db4fe57b4c0185bb002b7e090ef3fe)
+        ;
+
+        
+    
+    
+                marker_f4b119644e9482ece63290e633e276dd.setIcon(icon_ca7f27da1ebbd52cf525ca66486b19ba);
+            
+    
+            var marker_735b91a626854d1ae5d0fc95080ec690 = L.marker(
+                [27.707, 85.277],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_3a4dc9c9b6d5c631140e1842c3ff5714 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27b4a73e5d976cc139c94c670db74d45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4176555154a6b1fc6ebd6f531136e48 = $(`<div id="html_d4176555154a6b1fc6ebd6f531136e48" style="width: 100.0%; height: 100.0%;">Thulo Bharyang: 700.00 Lakhs NPR</div>`)[0];
+                popup_27b4a73e5d976cc139c94c670db74d45.setContent(html_d4176555154a6b1fc6ebd6f531136e48);
+            
+        
+
+        marker_735b91a626854d1ae5d0fc95080ec690.bindPopup(popup_27b4a73e5d976cc139c94c670db74d45)
+        ;
+
+        
+    
+    
+                marker_735b91a626854d1ae5d0fc95080ec690.setIcon(icon_3a4dc9c9b6d5c631140e1842c3ff5714);
+            
+    
+            var marker_929d1402b7cf427fd543b626b208a955 = L.marker(
+                [27.752, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_0b5f358d74ea4eb768bdcf0b6d912d97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68a98ac4d30fc2a453628e3eda15b8ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e58f5744cce28a8be9d2c7c7731c308 = $(`<div id="html_9e58f5744cce28a8be9d2c7c7731c308" style="width: 100.0%; height: 100.0%;">Hattigauda: 25.00 Lakhs NPR</div>`)[0];
+                popup_68a98ac4d30fc2a453628e3eda15b8ee.setContent(html_9e58f5744cce28a8be9d2c7c7731c308);
+            
+        
+
+        marker_929d1402b7cf427fd543b626b208a955.bindPopup(popup_68a98ac4d30fc2a453628e3eda15b8ee)
+        ;
+
+        
+    
+    
+                marker_929d1402b7cf427fd543b626b208a955.setIcon(icon_0b5f358d74ea4eb768bdcf0b6d912d97);
+            
+    
+            var marker_1c583a88f837f7fe61a3e4a144fb4085 = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_300b34ab5e8c9df8a34b1e172e46635e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a809f74488661b186912ebbff5bf4f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73903e64a4b4ee2ece3189e3bfd7825f = $(`<div id="html_73903e64a4b4ee2ece3189e3bfd7825f" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 25.00 Lakhs NPR</div>`)[0];
+                popup_7a809f74488661b186912ebbff5bf4f0.setContent(html_73903e64a4b4ee2ece3189e3bfd7825f);
+            
+        
+
+        marker_1c583a88f837f7fe61a3e4a144fb4085.bindPopup(popup_7a809f74488661b186912ebbff5bf4f0)
+        ;
+
+        
+    
+    
+                marker_1c583a88f837f7fe61a3e4a144fb4085.setIcon(icon_300b34ab5e8c9df8a34b1e172e46635e);
+            
+    
+            var marker_05eb5c280eb91b7604813181ccc3850c = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_cedf68982b43cb8a47553223ca4fa810 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fdaf64faee125d2ffddc97458f5575c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63b19838d61f28951e97e27b82f3578b = $(`<div id="html_63b19838d61f28951e97e27b82f3578b" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 550.00 Lakhs NPR</div>`)[0];
+                popup_fdaf64faee125d2ffddc97458f5575c9.setContent(html_63b19838d61f28951e97e27b82f3578b);
+            
+        
+
+        marker_05eb5c280eb91b7604813181ccc3850c.bindPopup(popup_fdaf64faee125d2ffddc97458f5575c9)
+        ;
+
+        
+    
+    
+                marker_05eb5c280eb91b7604813181ccc3850c.setIcon(icon_cedf68982b43cb8a47553223ca4fa810);
+            
+    
+            var marker_bf3477e829b5079c4bd36a39c1a09cc3 = L.marker(
+                [27.736, 85.344],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_71bd7cd237c20fff752d331a228570c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04e4f8b7b3d8ce51d9756afd5fc97c9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a4ae82b7608bc05ecaa6d46e2ba643f = $(`<div id="html_5a4ae82b7608bc05ecaa6d46e2ba643f" style="width: 100.0%; height: 100.0%;">Mandikatar: 625.00 Lakhs NPR</div>`)[0];
+                popup_04e4f8b7b3d8ce51d9756afd5fc97c9a.setContent(html_5a4ae82b7608bc05ecaa6d46e2ba643f);
+            
+        
+
+        marker_bf3477e829b5079c4bd36a39c1a09cc3.bindPopup(popup_04e4f8b7b3d8ce51d9756afd5fc97c9a)
+        ;
+
+        
+    
+    
+                marker_bf3477e829b5079c4bd36a39c1a09cc3.setIcon(icon_71bd7cd237c20fff752d331a228570c9);
+            
+    
+            var marker_9369d1cd52cfadb0a9831f74727accea = L.marker(
+                [27.776, 85.359],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_84fd12a47cb79b9bfc8e6638dc4ca4b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7ad96509c1e0691b04b7c1bb5bd41f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a01bd3f129d2984c484efccede58d5a = $(`<div id="html_6a01bd3f129d2984c484efccede58d5a" style="width: 100.0%; height: 100.0%;">Budhanilkantha: 290.00 Lakhs NPR</div>`)[0];
+                popup_a7ad96509c1e0691b04b7c1bb5bd41f5.setContent(html_6a01bd3f129d2984c484efccede58d5a);
+            
+        
+
+        marker_9369d1cd52cfadb0a9831f74727accea.bindPopup(popup_a7ad96509c1e0691b04b7c1bb5bd41f5)
+        ;
+
+        
+    
+    
+                marker_9369d1cd52cfadb0a9831f74727accea.setIcon(icon_84fd12a47cb79b9bfc8e6638dc4ca4b4);
+            
+    
+            var marker_73f51ebd826cd490f895f70aafbd8829 = L.marker(
+                [27.708, 85.279],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_a9980e19d318346ac8939e1cfd9a950a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0883bcff65a63f7760638186f4eba839 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a5e1b3e6de6e6ce35b66d832383b068 = $(`<div id="html_7a5e1b3e6de6e6ce35b66d832383b068" style="width: 100.0%; height: 100.0%;">Sitapaila: 180.00 Lakhs NPR</div>`)[0];
+                popup_0883bcff65a63f7760638186f4eba839.setContent(html_7a5e1b3e6de6e6ce35b66d832383b068);
+            
+        
+
+        marker_73f51ebd826cd490f895f70aafbd8829.bindPopup(popup_0883bcff65a63f7760638186f4eba839)
+        ;
+
+        
+    
+    
+                marker_73f51ebd826cd490f895f70aafbd8829.setIcon(icon_a9980e19d318346ac8939e1cfd9a950a);
+            
+    
+            var marker_ee9141e432b5826ecf700e06508921fc = L.marker(
+                [27.744, 85.337],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_9e7f86cdef7068670c9b4c1576f3546a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24cee3c8a6379aa4bc2b62944a21292f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82a82d75cdade7fce8006ae1959eb6a7 = $(`<div id="html_82a82d75cdade7fce8006ae1959eb6a7" style="width: 100.0%; height: 100.0%;">Dhapasi: 350.00 Lakhs NPR</div>`)[0];
+                popup_24cee3c8a6379aa4bc2b62944a21292f.setContent(html_82a82d75cdade7fce8006ae1959eb6a7);
+            
+        
+
+        marker_ee9141e432b5826ecf700e06508921fc.bindPopup(popup_24cee3c8a6379aa4bc2b62944a21292f)
+        ;
+
+        
+    
+    
+                marker_ee9141e432b5826ecf700e06508921fc.setIcon(icon_9e7f86cdef7068670c9b4c1576f3546a);
+            
+    
+            var marker_6ffd7d503cf181f36783ffb45d917b12 = L.marker(
+                [27.727, 85.334],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_1573020a1f34162b895e5e0ac390d1c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dafb5fe83dabf484f5e5db7f1765ff74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a977f5b5e7353576cb6631a17982a2b1 = $(`<div id="html_a977f5b5e7353576cb6631a17982a2b1" style="width: 100.0%; height: 100.0%;">Baluwatar: 350.00 Lakhs NPR</div>`)[0];
+                popup_dafb5fe83dabf484f5e5db7f1765ff74.setContent(html_a977f5b5e7353576cb6631a17982a2b1);
+            
+        
+
+        marker_6ffd7d503cf181f36783ffb45d917b12.bindPopup(popup_dafb5fe83dabf484f5e5db7f1765ff74)
+        ;
+
+        
+    
+    
+                marker_6ffd7d503cf181f36783ffb45d917b12.setIcon(icon_1573020a1f34162b895e5e0ac390d1c2);
+            
+    
+            var marker_13de0e538d81b95cf4031301ccd902b8 = L.marker(
+                [27.693, 85.374],
+                {
+}
+            ).addTo(marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019);
+        
+    
+            var icon_f480d920ac07da97811dabaf026e3183 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_601ac4958c246b87a3f0259b1c36cbdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a20ae8419e5d5a72218e72e74e89a45 = $(`<div id="html_5a20ae8419e5d5a72218e72e74e89a45" style="width: 100.0%; height: 100.0%;">Pepsicola: 110.00 Lakhs NPR</div>`)[0];
+                popup_601ac4958c246b87a3f0259b1c36cbdc.setContent(html_5a20ae8419e5d5a72218e72e74e89a45);
+            
+        
+
+        marker_13de0e538d81b95cf4031301ccd902b8.bindPopup(popup_601ac4958c246b87a3f0259b1c36cbdc)
+        ;
+
+        
+    
+    
+                marker_13de0e538d81b95cf4031301ccd902b8.setIcon(icon_f480d920ac07da97811dabaf026e3183);
+            
+    
+            marker_cluster_7a87e4ca7fbc7736618adeaf36dd7019.addTo(map_faad1a07954792b2c9ea035a524be3af);
+        
+</script>
+</html>
